@@ -313,6 +313,7 @@ body.dark .home .text {
     color: var(--text-color);
 }
 iframe{
+   
     width: 100%;
     height: 90%;
     
