@@ -1,6 +1,6 @@
-body.dark{
+body{
     min-height: 80vh;
-    background: hsl(0, 44%, 27%);
+    
     justify-content: center;
     align-items: center;
     display: flex;
@@ -12,7 +12,7 @@ body.dark{
   /* Button */
   .button{
     position: relative;
-    background: hsl(0, 53%, 42%);
+    background: hwb(0 36% 49%);
     
     border-radius: 15px;
     border: none;
@@ -55,7 +55,7 @@ body.dark{
   }
   
   .button::after{
-    content: "probando cosas";
+    content: "SteevenManda";
     position: relative;
     top: 0;
     left: 0;
