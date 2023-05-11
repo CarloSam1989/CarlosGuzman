@@ -1,6 +1,6 @@
 body{
     min-height: 80vh;
-    background: #e7e7e7;
+    /*background: #ffffff;*/
     justify-content: center;
     align-items: center;
     display: flex;
@@ -8,12 +8,10 @@ body{
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
- 
   /* Button */
   .button{
     position: relative;
     background: #d1d1d1;
-    
     border-radius: 15px;
     border: none;
     color: #ddd;
@@ -55,7 +53,7 @@ body{
   }
   
   .button::after{
-    content: "probando cosas";
+    content: "___";
     position: relative;
     top: 0;
     left: 0;
