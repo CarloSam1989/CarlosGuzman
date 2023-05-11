@@ -1,6 +1,6 @@
 body{
     min-height: 80vh;
-    
+    background: #1b1b1b;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -12,7 +12,7 @@ body{
   /* Button */
   .button{
     position: relative;
-    background: hwb(0 36% 49%);
+    background: #d1d1d1;
     
     border-radius: 15px;
     border: none;
@@ -55,7 +55,7 @@ body{
   }
   
   .button::after{
-    content: "SteevenManda";
+    content: "-";
     position: relative;
     top: 0;
     left: 0;
@@ -98,4 +98,3 @@ body{
   a:hover{
     color: #0b0b0b;
   }
- 
