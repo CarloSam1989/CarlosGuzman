@@ -53,7 +53,7 @@ p{
 }
 .line{
     display: inline-block;
-    width: 50px;
+    width: 100px;
     height: 7px;
     background: linear-gradient(
         90deg,
