@@ -120,6 +120,7 @@ button {
   background-color: #333;
   border-radius: 6px;
 }
+
 .container .card .face.back .content button:hover {
   letter-spacing: 1px;
 }
