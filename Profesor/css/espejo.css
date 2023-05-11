@@ -1,6 +1,6 @@
 body{
     min-height: 80vh;
-    background: #e7e7e7;
+    /*background: #e7e7e7;*/
     justify-content: center;
     align-items: center;
     display: flex;
@@ -13,20 +13,24 @@ body{
   .button{
     position: relative;
     background: #d1d1d1;
-    
+    width: 70%;
+    height: 80%;
     border-radius: 15px;
     border: none;
     color: #ddd;
-    font-size: 16px;
+    font-size: 300px;
     padding: 20px 75px;
     overflow: hidden;
     text-decoration: none;
-    transition: all .15s ease-in;
+   transition: all .15s ease-in;
     box-shadow: 0 2px 60px #bfbfbf, 0 2px 8px #ddd, 0 15px 30px #ddd,
                 inset 0 0 1px 1px hsl(0deg 0% 100% / 90%), 0 20px 27px 0 rgb(0 0 0 / 5%);
     cursor: pointer;
   }
-  
+  .divespejo{
+    height: 80%;
+    width: 100%;
+  }
   .button:hover{
     box-shadow: 0 2px 13px #ababab, 0 2px 8px #ddd, 0 15px 30px #ddd,
                 inset 0 0 1px 1px hsl(0deg 0% 100% / 90%), 0 20px 27px 0 rgb(0 0 0 / 5%);
@@ -80,10 +84,10 @@ body{
     height: 100%;
     border-radius: 30px;
     transform: scale(3) scaleX(-1);
-    filter: blur(1px) saturate(0.5) brightness(.9);
+   filter: blur(1px) saturate(0.5) brightness(.9);
   }
   
-  /* Paragraph */
+  
   p{
     margin-top: 50px;
     color: #3a3737;
