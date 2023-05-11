@@ -87,7 +87,7 @@ body{
    filter: blur(1px) saturate(0.5) brightness(.9);
   }
   
-  /* Paragraph */
+  
   p{
     margin-top: 50px;
     color: #3a3737;
