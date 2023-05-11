@@ -116,6 +116,7 @@ label{
     color:#707070;
 }
 select {
+    
     -webkit-appearance:none;
     -moz-appearance:none;
     -ms-appearance:none;
@@ -148,7 +149,7 @@ select {
  .select::after {
     content: '\25BC';
     position: absolute;
-    top: 0;
+    top: 00;
     right: 0;
     padding: 0 1em;
     background: #9C27B0;
@@ -159,6 +160,7 @@ select {
  .select:hover::after {
     color: #707070;
  }
+ 
 
 @media(max-width:991px){
     body{
