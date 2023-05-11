@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form action="menu.html" method="#">
+      <h2>Login</h2>
+      <span class="line"></span>
+      <p>Ingresa credenciales..</p>
+      <div class="input-group">
+        <label for="email">Correo</label>
+        <input type="email" placeholder="Correo" name="email" id="email" />
+        <label for="contraseña">Contraseña</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
+        />
+        <div class="form-txt">
+          <a href="#">Politicas de privacidades</a>
+          <a href="#">Terminos y condisiones</a>
+        </div>
+        <input type="submit" value="Enviar" class="btn" />
+        <!--  <input type="hidden" name="_next" value=""http://127.0.0.1:5500/>
+        <input type="hidden" name="_captcha" value="false" />-->
+      </div>
+    </form>
+  </body>
 </html>
