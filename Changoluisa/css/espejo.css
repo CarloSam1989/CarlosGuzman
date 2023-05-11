@@ -1,6 +1,6 @@
-body.dark{
+body{
     min-height: 80vh;
-    background: hsl(0, 44%, 27%);
+    background: #e7e7e7;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -12,7 +12,7 @@ body.dark{
   /* Button */
   .button{
     position: relative;
-    background: hsl(0, 53%, 42%);
+    background: #d1d1d1;
     
     border-radius: 15px;
     border: none;
@@ -98,4 +98,3 @@ body.dark{
   a:hover{
     color: #0b0b0b;
   }
- 
