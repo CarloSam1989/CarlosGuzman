@@ -6,7 +6,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.button:hover{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	background:#8f12c9
+
+}
 .button {
+    
     position: relative;
     top: 9px;
     left: -2px;
