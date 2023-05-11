@@ -92,10 +92,10 @@ input::placeholder{
     text-decoration: none;
 }
 .btn{
-    font-size: 16px;
+    font-size: 25px;
     color: #ffcfff;
     border: 0;
-    border-radius: 25px;
+    border-radius: 100px;
     background: linear-gradient(
         90deg,
         rgba(214,0,254,1) 0%,
