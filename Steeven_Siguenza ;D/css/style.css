@@ -61,6 +61,22 @@ p{
         rgba(136,1,254,1) 77%
     );
 }
+.login {
+
+        position: relative;
+    background: rgb(224, 186, 200);
+    border-radius: 10px;
+    border: none;
+    color: #ddd;
+    font-size: 16px;
+    padding: 20px 75px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all .15s ease-in;
+    box-shadow: 0 2px 60px #bfbfbf, 0 2px 8px #ddd, 0 15px 30px #ddd,
+                inset 0 0 1px 1px hsl(0deg 0% 100% / 90%), 0 20px 27px 0 rgb(0 0 0 / 5%);
+    
+}
 label {
     color:#1B1B1B;
     font-size: 15px;
