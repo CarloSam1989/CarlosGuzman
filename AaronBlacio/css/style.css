@@ -112,10 +112,33 @@ input::placeholder{
         
     );
 }
+.formulario{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.btn2{
+    
+    width: 50%;
+    font-size: 16px;
+    color: #ffcfff;
+    border: 0;
+    border-radius: 20px;
+    background: rgba(214,0,254,1);
+    box-shadow: inset 20px 20 80px rgb(248, 150, 248);
+    cursor: pointer;
+}
+.btn2:hover{
+    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+}
+
 label{
     color:#707070;
 }
 select {
+    
     -webkit-appearance:none;
     -moz-appearance:none;
     -ms-appearance:none;
@@ -148,7 +171,7 @@ select {
  .select::after {
     content: '\25BC';
     position: absolute;
-    top: 0;
+    top: 00;
     right: 0;
     padding: 0 1em;
     background: #9C27B0;
@@ -159,6 +182,7 @@ select {
  .select:hover::after {
     color: #707070;
  }
+ 
 
 @media(max-width:991px){
     body{
