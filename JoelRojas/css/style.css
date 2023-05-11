@@ -9,7 +9,7 @@ body{
 form{
    /* background-color: #707070;*/
     padding: 50px 55px 85px 55px;
-    box-shadow: 0 0 20px #9C27B0;;
+    box-shadow: 0 0 20px #ddb917;;
     border-radius: 20px;
     text-align: center;
     width: 340px;
@@ -39,8 +39,8 @@ p{
     height: 7px;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(254, 102, 0) 0%,
+        rgb(254, 187, 1) 77%
     );
 }
 label {
@@ -80,8 +80,8 @@ input::placeholder{
     border-radius: 25px;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(254, 135, 0) 0%,
+        rgb(254, 195, 1) 77%
     );
     box-shadow: 0 0 20px rgba(214,0,254,0.4);
     cursor: pointer;
@@ -89,8 +89,8 @@ input::placeholder{
 .btn:hover{
     background: linear-gradient(
         90deg,
-        rgba(136,1,254,1) 0%,
-        rgba(214,0,254,1) 77%
+        rgb(254, 153, 1) 0%,
+        rgb(254, 186, 0) 77%
         
     );
 }
@@ -133,7 +133,7 @@ select {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: #9C27B0;
+    background: #ddb917;
     cursor:pointer;
     pointer-events:none;
     transition:.25s all ease;
