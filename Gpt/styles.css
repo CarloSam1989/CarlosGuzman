@@ -1,0 +1,71 @@
+/* Estilos para el encabezado-GPT */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    margin: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  section a {
+    color: #333;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  section a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

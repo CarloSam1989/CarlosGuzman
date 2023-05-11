@@ -149,7 +149,7 @@ select {
  .select {
     position: relative;
     display: flex;
-    width: 35em;
+    width: 100%;
     height: 3em;
     line-height: 3;
     background: #fff;
@@ -181,5 +181,8 @@ select {
     }
     input{
         padding: 15px 10px;
+    }
+    .select{
+        width: 100%;
     }
 }

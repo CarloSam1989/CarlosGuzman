@@ -107,15 +107,15 @@ input::placeholder{
 
 .btn2{
     font-size: 16px;
-    color: yellowgreen;
+    color: yellow;
     border: 0;
     border-radius: 25px;
     background: linear-gradient(
         90deg,
-        rgb(30, 254, 0) 0%,
-        rgba(1, 195, 254, 0) 77%
+        rgb(75, 44, 133) 0%,
+        rgba(18, 1, 254, 0) 77%
     );
-    box-shadow: 0 0 20px rgba(114, 254, 0, 0.4);
+    box-shadow: 0 0 20px rgba(51, 0, 254, 0.4);
     cursor: pointer;
 }
 .btn:hover{
