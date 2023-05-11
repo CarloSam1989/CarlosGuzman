@@ -7,9 +7,9 @@ body {
   background-color: #333;
   background-image: linear-gradient(
     135deg,
-    #a1286836 0%,
-    #2d6c8534 46%,
-    #745d3f1e 100%
+    #b692a536 0%,
+    #3700fc34 46%,
+    #b609091e 100%
   );
 
   justify-content: center;
@@ -96,8 +96,8 @@ body {
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(255, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(2, 120, 255, 0.06) 0px 0px 0px 1px;
   transform: translateY(-100px);
 }
 .container .card:hover .face.back {
