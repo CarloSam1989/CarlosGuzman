@@ -91,9 +91,20 @@ input::placeholder{
     font-weight: 600;
     text-decoration: none;
 }
+.input-group-boton{
+    padding-top: 500px;
+    padding: 10px 10px;
+    width: 400px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.input-group-boton:hover{
+   background-color: red;
+}
 .btn{
     font-size: 16px;
     color: #ffcfff;
+   
     border: 0;
     border-radius: 25px;
     background: linear-gradient(
@@ -138,7 +149,7 @@ select {
  .select {
     position: relative;
     display: flex;
-    width: 21em;
+    width: 35em;
     height: 3em;
     line-height: 3;
     background: #fff;
