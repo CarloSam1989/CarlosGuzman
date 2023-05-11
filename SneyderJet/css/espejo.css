@@ -1,6 +1,6 @@
 body{
     min-height: 80vh;
-    background: #e7e7e7;
+    background: #1b1b1b;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -55,7 +55,7 @@ body{
   }
   
   .button::after{
-    content: "probando cosas";
+    content: "-";
     position: relative;
     top: 0;
     left: 0;
