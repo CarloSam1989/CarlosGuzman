@@ -1,5 +1,4 @@
 body{
-  
     min-height: 80vh;
     justify-content: center;
     align-items: center;
@@ -8,11 +7,9 @@ body{
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
- 
   /* Button */
   .button{
     position: relative;
-    
     border-radius: 15px;
     border: none;
     color: #ddd;
