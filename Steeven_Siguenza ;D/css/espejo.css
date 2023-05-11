@@ -1,6 +1,6 @@
 body{
     min-height: 80vh;
-    background: #e7e7e7;
+    
     justify-content: center;
     align-items: center;
     display: flex;
@@ -12,7 +12,7 @@ body{
   /* Button */
   .button{
     position: relative;
-    background: #d1d1d1;
+    background: hwb(0 36% 49%);
     
     border-radius: 15px;
     border: none;
@@ -55,7 +55,7 @@ body{
   }
   
   .button::after{
-    content: "probando cosas";
+    content: "SteevenManda";
     position: relative;
     top: 0;
     left: 0;
@@ -98,3 +98,4 @@ body{
   a:hover{
     color: #0b0b0b;
   }
+ 
