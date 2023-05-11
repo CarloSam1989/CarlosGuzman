@@ -185,7 +185,7 @@ select {
  }
  
 
-@media(max-width:991px){
+@media(max-width:550px){
     body{
         padding: 30px;
     }
