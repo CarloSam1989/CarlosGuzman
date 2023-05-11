@@ -1,6 +1,6 @@
-body.dark{
+body{
     min-height: 80vh;
-    background: hsl(0, 44%, 27%);
+    
     justify-content: center;
     align-items: center;
     display: flex;
@@ -8,11 +8,11 @@ body.dark{
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
- 
+
   /* Button */
   .button{
     position: relative;
-    background: hsl(0, 53%, 42%);
+    background: hsl(0, 11%, 25%);
     
     border-radius: 15px;
     border: none;
@@ -55,7 +55,7 @@ body.dark{
   }
   
   .button::after{
-    content: "probando cosas";
+    content: "Steeven Manda";
     position: relative;
     top: 0;
     left: 0;
