@@ -1,4 +1,13 @@
-
+body{
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+ 
   /* Button */
   .button{
     position: relative;

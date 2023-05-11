@@ -7,9 +7,9 @@ body {
   background-color: #333;
   background-image: linear-gradient(
     135deg,
-    #a1286836 0%,
-    #2d6c8534 46%,
-    #745d3f1e 100%
+    #a1992836 0%,
+    #852d6b34 46%,
+    #48743f1e 100%
   );
 
   justify-content: center;
@@ -43,9 +43,9 @@ body {
 }
 .container .card:hover .face.front {
   transform: translateY(0);
-  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #f0f,
-    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
-    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(255, 217, 0),
+    inset -20px 0 80px rgb(251, 255, 0), inset 20px 0 300px rgb(255, 238, 0), inset -20px 0 300px #0ff,
+    0 0 50px #fff, -10px 0 80px rgb(255, 208, 0), 10px 0 80px #0ff;
 }
 .container .card:nth-child(2):hover .face.front {
   box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(255, 208, 0),
@@ -56,9 +56,10 @@ body {
 .container .card:nth-child(3):hover .face.front {
   box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(63, 41, 16),
     inset -20px 0 80px rgb(26, 11, 2), inset 20px 0 300px rgb(24, 19, 5),
-    inset -20px 0 300px rgb(53, 27, 13), 0 0 50px #ffca7f,
-    -10px 0 80px rgb(70, 45, 8), 10px 0 80px rgb(51, 40, 32);
+    inset -20px 0 300px rgb(53, 27, 13), 0 0 50px #e6b674,
+    -10px 0 80px rgb(95, 62, 13), 10px 0 80px rgb(51, 40, 32);
 }
+
 .container .card .face.front .content {
   width: 100%;
   height: 100%;
