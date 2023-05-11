@@ -59,6 +59,7 @@ body {
     inset -20px 0 300px rgb(53, 27, 13), 0 0 50px #ffca7f,
     -10px 0 80px rgb(70, 45, 8), 10px 0 80px rgb(51, 40, 32);
 }
+
 .container .card .face.front .content {
   width: 100%;
   height: 100%;
