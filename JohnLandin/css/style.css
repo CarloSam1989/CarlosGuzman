@@ -104,6 +104,20 @@ input::placeholder{
     box-shadow: 0 0 20px rgba(214,0,254,0.4);
     cursor: pointer;
 }
+
+.btn2{
+    font-size: 16px;
+    color: yellow;
+    border: 0;
+    border-radius: 25px;
+    background: linear-gradient(
+        90deg,
+        rgb(75, 44, 133) 0%,
+        rgba(18, 1, 254, 0) 77%
+    );
+    box-shadow: 0 0 20px rgba(51, 0, 254, 0.4);
+    cursor: pointer;
+}
 .btn:hover{
     background: linear-gradient(
         90deg,
@@ -126,7 +140,7 @@ select {
     background: #fff;
     background-image: none;
     flex: 1;
-    padding: 0 .1em;
+    padding: 15 .1em;
     color:#707070;
     cursor:pointer;
     font-size: 1em;
