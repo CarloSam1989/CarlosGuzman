@@ -1,0 +1,132 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to left, #CED4F2, #F0D7F4); 
+  text-align: center;
+  color: #35446D;
+  font-size: 30px;
+}
+.share {
+  
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -40px;
+  border-radius: 80px;
+}
+.share span {
+  
+  width: 200px;
+  line-height: 80px;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+.share nav {
+  font-size: 0;
+}
+.share a {
+  line-height: 80px;
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  background-color: #FDF5FF;
+  overflow: hidden;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  margin: 0 -20px;
+  box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.05);
+}
+.share a:nth-child(1) {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-left: 0;
+}
+.share a:nth-child(1):hover {
+  background-color: #4e79c4;
+}
+.share a:nth-child(2):hover {
+  background-color: #6ddafc;
+}
+.share a:nth-child(3):hover {
+  background-color: #0e9cdb;
+}
+.share a:nth-child(4) {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-right: 0;
+}
+.share a:nth-child(4):hover {
+  background-color: #f75c54;
+}
+.share:hover span, .share.hover span {
+  letter-spacing: 5px;
+  opacity: 0;
+}
+.share:hover a, .share.hover a {
+  border-radius: 40px;
+  margin: 0 10px;
+  color: #35446D;
+  font-size: 25px;
+}
+.share:hover a:hover, .share.hover a:hover {
+  color: #fff;
+}
+/*estilos de la calificacion*/
+:root {
+  --black: #1b1b1d;
+  --grey: #0f1011;
+  --yellow: #edc932;
+  --gradient: linear-gradient(45deg, #5bb12a, #a8a631);
+}
+.rating-box {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 70px 50px;
+  border-radius: 40px;
+  background: linear-gradient(-60deg, #ffffff90, #ffffffff);
+  border: solid 5px transparent;
+  background-clip: padding-box;
+  box-shadow: 0 10px 10px rgba(46, 54, 68, .1);
+  margin-left: 630px;
+}
+.rating-box h1 {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--black);
+  text-transform: capitalize;
+  text-align: center;
+}
+.rating-box p {
+  font-size: 15px;
+  color: var(--grey);
+  margin-bottom: 40px;
+  text-align: center;
+}
+.rating-box .stars {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.rating-box .stars i {
+  color: var(--grey);
+  font-size: 40px;
+  cursor: pointer;
+  transition: color .2s ease;
+}
+.rating-box .stars i.active {
+  color: var(--yellow);
+}
