@@ -23,7 +23,7 @@ body{
     text-decoration: none;
     transition: all .15s ease-in;
     box-shadow: 0 2px 60px #2ea2d8, 0 2px 8px #ddd, 0 15px 30px #ddd,
-                inset 0 0 1px 1px hsla(276, 43%, 48%, 0.9), 0 20px 27px 0 rgb(0 0 0 / 5%);
+                inset 0 0 1px 1px hsla(239, 72%, 43%, 0.9), 0 20px 27px 0 rgb(0 0 0 / 5%);
     cursor: pointer;
   }
   
