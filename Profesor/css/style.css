@@ -102,6 +102,11 @@ input::placeholder{
    background-color: red;
 }
 .btn{
+    padding-top: 500px;
+    padding: 10px 10px;
+    width: 360px;
+    border-radius: 25px;
+    font-size: 16px;
     font-size: 16px;
     color: #ffcfff;
    

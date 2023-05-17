@@ -1,5 +1,6 @@
 body{
     min-height: 80vh;
+    /*background: #e7e7e7;*/
     justify-content: center;
     align-items: center;
     display: flex;
@@ -12,7 +13,8 @@ body{
   .button{
     position: relative;
     background: #d1d1d1;
-    
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
     border: none;
     color: #ddd;
@@ -25,6 +27,7 @@ body{
                 inset 0 0 1px 1px hsl(0deg 0% 100% / 90%), 0 20px 27px 0 rgb(0 0 0 / 5%);
     cursor: pointer;
   }
+  
   
   .button:hover{
     box-shadow: 0 2px 13px #ababab, 0 2px 8px #ddd, 0 15px 30px #ddd,
