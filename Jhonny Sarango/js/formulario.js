@@ -35,28 +35,48 @@ btn_adelante2.addEventListener("click",function(e){
     
 });
 btn_adelante3.addEventListener("click",function(e){
-    e.preventDefault();
+    var fecha =document.getElementById("fehcanac").value;
+    var sexo = document.getElementById("sexo").value;
+    if(fecha== "" || sexo== "-1"){
+        /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
+         alert("No puede quedar vacío.");
+    }else{e.preventDefault();
+        movPag.style.marginLeft="-50%"
     num[cont - 1].classList.add("active");
     progressText[cont - 1].classList.add("active");
     progressCheck[cont - 1].classList.add("active");
     cont += 1;
-    movPag.style.marginLeft="-50%"
+    
+    }
 });
 btn_adelante4.addEventListener("click",function(e){
-    e.preventDefault();
-    num[cont - 1].classList.add("active");
-    progressText[cont - 1].classList.add("active");
-    progressCheck[cont - 1].classList.add("active");
-    cont += 1;
-    movPag.style.marginLeft="-75%"
+    var email = document.getElementById("correo").value;
+    var celular = document.getElementById("telefono").value;
+    if(email== "" || celular== ""){
+        /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
+         alert("No puede quedar vacío.");
+    }else{e.preventDefault();
+        movPag.style.marginLeft="-75%"
+        num[cont - 1].classList.add("active");
+        progressText[cont - 1].classList.add("active");
+        progressCheck[cont - 1].classList.add("active");
+        cont += 1;
+
+    } 
 });
 btn_final.addEventListener("click",function(e){
-    e.preventDefault();
+    var usu = document.getElementById("usuario").value;
+    var contra = document.getElementById("pass").value;
+    if(usu== "" || contra== ""){
+        /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
+         alert("No puede quedar vacío.");
+    }else{e.preventDefault();
     num[cont - 1].classList.add("active");
     progressText[cont - 1].classList.add("active");
     progressCheck[cont - 1].classList.add("active");
     cont += 1;
     alert("Fin de registro");
+    }
 });
 btn_atras1.addEventListener("click",function(e){
     e.preventDefault();
