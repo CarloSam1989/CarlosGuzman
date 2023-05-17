@@ -19,7 +19,8 @@ btn_adelante2.addEventListener("click", function (e) {
   var nombre = document.getElementById("nombres").value;
   var ape = document.getElementById("apellidos").value;
   var iden = document.getElementById("identificacion").value;
-  if (nombre === "" || ape === "" || iden === "") {
+  if (nombre == "" || ape == "" || iden == "") {
+    /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
     alert("No puede quedar vacío.");
   } else {
     e.preventDefault();
