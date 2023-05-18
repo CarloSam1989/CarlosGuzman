@@ -24,6 +24,7 @@ body{
     font-size: 28px;
     font-weight: 600;
     margin: 0 0 30px 0;
+    
 }
 .contanier .form-princ{
     width: 100%;
@@ -67,7 +68,7 @@ body{
     font-size: 16px;
     padding-left: 15px;
 }
-.form-princ form .pagina .campo .select{
+.form-princ form .pagina .campo select{
     width: 100%;
     padding-left: 100px;
     font-size: 17px;
@@ -206,4 +207,8 @@ form .pagina .btns button.adelante{
 }
 #mostrar , #ocultar{
     cursor:pointer;
+}
+.hader{
+color: var(#ffffff
+);
 }
