@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <form class="formulariocontenido" action="#">
+    <form action="#">
       <div class="input-group">
         <label for="">Nombres</label>
         <input type="text" placeholder="Ingresar Nombres" required />
@@ -21,7 +21,6 @@
         <label for="">Identificación</label>
         <input type="text" placeholder="Ingresar Cédula" required />
         <label for="">Equipo</label>
-        
         <div class="select">
           <select name="format" id="format">
             <option selected disabled>Seleccionar un Equipo</option>
@@ -29,11 +28,12 @@
             <option value="2">Orense</option>
             <option value="3">Independiente del Valle</option>
             <option value="4">Liga de Quito</option>
-            
           </select>
         </div>
+        <label style="padding: 15px 0px 0px 0px" for="">Correo</label>
+        <input type="email" required />
+        <input class="btn" type="submit" value="Enviar" />
       </div>
-      <button type="button" class="bottonEnver">Enviar</button>
     </form>
     <script src="js/script.js"></script>
   </body>
