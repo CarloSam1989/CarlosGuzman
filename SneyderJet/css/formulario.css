@@ -23,7 +23,7 @@ body{
     padding: 30px 35px 0 35px;
 }
 .contanier header{
-    color:#707070;
+    color:#ffffff;
     font-size: 28px;
     font-weight: 600;
     margin: 0 0 30px 0;
@@ -31,7 +31,7 @@ body{
 .contanier .form-princ{
     width: 100%;
     overflow: hidden;
-    color:#707070;
+    color:#171616;
 }
 .form-princ form{
     display: flex;
@@ -128,14 +128,14 @@ form .pagina .btns button.adelante{
     position: relative;
 }
 .progress-bar .paso p{
-    color: #707070;
+    color: #a0be53;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 8px;
     transition: 0.2s;
 }
 .progress-bar .paso .num{
-    color: #707070;
+    color: #a0be53;
     position: relative;
     width: 25px;
     height: 25px;
