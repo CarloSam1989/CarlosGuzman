@@ -41,11 +41,11 @@ btn_adelante3.addEventListener("click",function(e){
     var fec = document.getElementById("fehcanac").value;
     var sex = document.getElementById("sexo").value;
  
-    if(fec=="" || ape=="" || sex==""){
+    if(fec=="" || sex=="-1"){
         
       /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
        alert("No puede quedar vacío.");
-       movPag.style.marginLeft="-25%"
+      // movPag.style.marginLeft="-25%"
     return 0;
     }else{
         e.preventDefault();
