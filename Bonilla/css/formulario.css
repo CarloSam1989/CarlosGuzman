@@ -24,7 +24,6 @@ body{
     font-size: 28px;
     font-weight: 600;
     margin: 0 0 30px 0;
-    
 }
 .contanier .form-princ{
     width: 100%;
@@ -207,8 +206,4 @@ form .pagina .btns button.adelante{
 }
 #mostrar , #ocultar{
     cursor:pointer;
-}
-.hader{
-color: var(#ffffff
-);
 }
