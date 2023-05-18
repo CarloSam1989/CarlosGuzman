@@ -27,13 +27,13 @@ body{
 form{
    /* background-color: #707070;*/
     padding: 50px 55px 85px 55px;
-    box-shadow: 0 0 20px #9C27B0;;
+    box-shadow: 0 0 20px #2790b0;
     border-radius: 20px;
     text-align: center;
     width: 340px;
 }
 .formulariocontenido{
-    background-color: #9B27B00D;
+    background-color: #2790b000;
 }
 .input-group{
     
@@ -57,8 +57,8 @@ p{
     height: 7px;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(26, 156, 179) 0%,
+        rgb(1, 39, 254) 77%
     );
 }
 label {
@@ -93,22 +93,22 @@ input::placeholder{
 }
 .btn{
     font-size: 16px;
-    color: #ffcfff;
+    color: #0306ad;
     border: 0;
     border-radius: 25px;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(0, 161, 254) 0%,
+        rgb(1, 47, 254) 77%
     );
-    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+    box-shadow: 0 0 20px rgba(6, 141, 194, 0.705);
     cursor: pointer;
 }
 .btn:hover{
     background: linear-gradient(
         90deg,
-        rgba(136,1,254,1) 0%,
-        rgba(214,0,254,1) 77%
+        rgb(1, 47, 254) 0%,
+        rgb(0, 161, 254) 77%
         
     );
 }
@@ -151,7 +151,7 @@ select {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: #9C27B0;
+    background: #2790b0;
     cursor:pointer;
     pointer-events:none;
     transition:.25s all ease;
