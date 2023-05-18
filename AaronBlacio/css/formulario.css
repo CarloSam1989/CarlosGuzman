@@ -40,7 +40,7 @@ body{
 }
 .form-princ form .pagina{
     width: 25%;
-    transition:margin-left 0.3s ease-in-out;
+    transition: margin-left 0.3s ease-in-out;
 }
 .form-princ form .pagina .titulo{
     text-align: left;
@@ -67,14 +67,19 @@ body{
     text-align: left;
     width: 100%;
 }
+
 .form-princ form .pagina .campo input{
     color:dodgerblue;
     width: 100%;
     height: 100%;
     border: 1px solid lightgrey;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 15px;
+}
+.form-princ form .pagina .campo input::placeholder{
+    color: dodgerblue;
+    font-size: 12px;
 }
 .form-princ form .pagina .campo select{
     color:dodgerblue;
