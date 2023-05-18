@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="contanier">
+      <header>Registro</header>
+      <div class="progress-bar">
+        <div class="paso">
+          <p>Datos</p>
+          <div class="num">
+            <span>1</span>
+          </div>
+          <div class="check fa fa-check"></div>
+        </div>
+        <div class="paso">
+          <p>Nac.</p>
+          <div class="num">
+            <span>2</span>
+          </div>
+          <div class="check fa fa-check"></div>
+        </div>
+        <div class="paso">
+          <p>Contacto</p>
+          <div class="num">
+            <span>3</span>
+          </div>
+          <div class="check fa fa-check"></div>
+        </div>
+        <div class="paso">
+          <p>Usuario</p>
+          <div class="num">
+            <span>4</span>
+          </div>
+          <div class="check fa fa-check"></div>
+        </div>
+      </div>
+      <div class="form-princ">
+        <form action="#">
+          <!--pagina 1-->
+          <div class="pagina movPag">
+            <div class="titulo">Información</div>
+            <div class="campo">
+              <div class="label">
+                Nombres: <b id="error " class="nombres-error"></b>
+              </div>
+              <input
+                type="text"
+                placeholder="Nombres"
+                name="nombres"
+                id="nombres"
+              />
+            </div>
+            <div class="campo">
+              <div class="label">
+                Apellidos: <b id="error " class="apellidos-error"></b>
+              </div>
+              <input
+                type="text"
+                placeholder="Apellidos"
+                name="apellidos"
+                id="apellidos"
+              />
+            </div>
+            <div class="campo">
+              <div class="label">
+                Identificacion: <b id="error " class="identificacion-error"></b>
+              </div>
+              <input
+                type="text"
+                placeholder="Identificacion"
+                name="identificacion"
+                id="identificacion"
+              />
+            </div>
+            <div class="campo sigPag">
+              <button>Siguiente</button>
+            </div>
+          </div>
+          <!--pagina 2-->
+          <div class="pagina">
+            <div class="titulo">Información Secundaria</div>
+            <div class="campo">
+              <div class="label">
+                Fecha nacimiento: <b id="error " class="fecha-error"></b>
+              </div>
+              <input
+                type="date"
+                max="2005-01-01"
+                name="fehcanac"
+                id="fehcanac"
+              />
+            </div>
+            <div class="campo">
+              <div class="label">
+                Sexo: <b id="error " class="sexo-error"></b>
+              </div>
+              <select name="sexo" id="sexo">
+                <option value="-1" disabled selected>Escoge una opción</option>
+                <option value="0">Masculino</option>
+                <option value="0">Femenino</option>
+                <option value="0">Sin especificar</option>
+              </select>
+            </div>
+
+            <div class="campo btns">
+              <button class="volver-pag1 volver">Atrás</button>
+              <button class="adelante-pag3 adelante">Siguiente</button>
+            </div>
+          </div>
+          <!--pagina 3-->
+          <div class="pagina">
+            <div class="titulo">Información Contacto</div>
+            <div class="campo">
+              <div class="label">
+                Correo: <b id="error " class="correo-error"></b>
+              </div>
+              <input
+                type="email"
+                placeholder="Correo"
+                name="correo"
+                id="correo"
+              />
+            </div>
+            <div class="campo">
+              <div class="label">
+                Teléfono: <b id="error " class="telefono-error"></b>
+              </div>
+              <input
+                type="text"
+                placeholder="Teléfono"
+                name="telefono"
+                id="telefono"
+              />
+            </div>
+
+            <div class="campo btns">
+              <button class="volver-pag2 volver">Atrás</button>
+              <button class="adelante-pag4 adelante">Siguiente</button>
+            </div>
+          </div>
+          <!--pagina 4-->
+          <div class="pagina">
+            <div class="titulo">Información Inicio sesión</div>
+            <div class="campo">
+              <div class="label">Nombre de Usuario:</div>
+              <input
+                type="text"
+                placeholder="Nombre usuario"
+                name="usuario"
+                id="usuario"
+              />
+            </div>
+            <div class="campo">
+              <div class="label">Contraseña:</div>
+              <input type="password" name="pass" id="pass" />
+              <span class="ojitos" onclick="mostrarContra()">
+                <i id="mostrar" class="fa fa-eye" title="Mostrar"></i>
+                <i id="ocultar" class="fa fa-eye-slash" title="Ocultar"></i>
+              </span>
+            </div>
+            <div class="campo btns">
+              <button class="volver-pag3 volver">Atrás</button>
+              <button class="fin">Finalizar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      function mostrarContra() {
+        var contra = document.getElementById("pass");
+        var ocultar = document.getElementById("ocultar");
+        var mostrar = document.getElementById("mostrar");
+        if (contra.type == "password") {
+          contra.type = "text";
+          ocultar.style.display = "block";
+          mostrar.style.display = "none";
+        } else {
+          contra.type = "password";
+          ocultar.style.display = "none";
+          mostrar.style.display = "block";
+        }
+      }
+    </script>
+    <script src="js/formulario.js"></script>
+  </body>
+</html>

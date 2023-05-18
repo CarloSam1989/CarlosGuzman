@@ -102,6 +102,11 @@ input::placeholder{
    background-color: red;
 }
 .btn{
+    padding-top: 500px;
+    padding: 10px 10px;
+    width: 360px;
+    border-radius: 25px;
+    font-size: 16px;
     font-size: 16px;
     color: #ffcfff;
    
@@ -149,7 +154,7 @@ select {
  .select {
     position: relative;
     display: flex;
-    width: 35em;
+    width: 100%;
     height: 3em;
     line-height: 3;
     background: #fff;
@@ -181,5 +186,8 @@ select {
     }
     input{
         padding: 15px 10px;
+    }
+    .select{
+        width: 100%;
     }
 }

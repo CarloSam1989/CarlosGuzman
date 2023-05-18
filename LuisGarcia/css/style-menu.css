@@ -10,7 +10,7 @@
 :root{
     --body-color:#9B27B00D;
     --sidebar-color:#FFFFFF;
-    --primary-color: #9C27B0;
+    --primary-color: #3527b0;
     --primary-color-light:#9B27B00D;
     --toggle-color:#DDDDDD;
     --text-color:#707070;
@@ -37,7 +37,7 @@ body.dark{
     --body-color: #18191A;
     --sidebar-color: #242526;
     --primary-color-ligth:#3A3B3C;
-    --toggle-color: #FFFFFF;
+    --toggle-color: #8a8a8a;
     --text-color:#CCCCCC;
 }
 
