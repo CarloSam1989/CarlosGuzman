@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganancias</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="#">
+      <div class="input-group">
+        <label for="">Nombres</label>
+        <input type="text" placeholder="Ingresar Nombres" required />
+        <label for="">Apellidos</label>
+        <input type="text" placeholder="Ingresar Apellidos" required />
+        <label for="">Identificación</label>
+        <input type="text" placeholder="Ingresar Cédula" required />
+        <label for="">Equipo</label>
+        <div class="select">
+          <select name="format" id="format">
+            <option selected disabled>Seleccionar un Equipo</option>
+            <option value="1">Barcelona</option>
+            <option value="2">Orense</option>
+            <option value="3">Independiente del Valle</option>
+            <option value="4">Liga de Quito</option>
+          </select>
+        </div>
+        <label style="padding: 15px 0px 0px 0px" for="">Correo</label>
+        <input type="email" required />
+        <input class="btn" type="submit" value="Enviar" />
+      </div>
+    </form>
+    <script src="js/script.js"></script>
+  </body>
+</html>
