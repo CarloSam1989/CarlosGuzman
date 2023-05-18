@@ -17,14 +17,14 @@ body{
 .contanier{
     width: 350px;
     border-radius: 25px;
-   text-align: center;
+    text-align: center;
     padding: 30px 35px 0 35px;
 }
 .contanier header{
     font-size: 28px;
     font-weight: 600;
     margin: 0 0 30px 0;
-}
+} 
 .contanier .form-princ{
     width: 100%;
     overflow: hidden;
@@ -73,7 +73,7 @@ body{
     font-size: 17px;
     font-weight: 500;
     border-radius: 5px;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(1, 47, 254);
 }
 .form-princ form .pagina .campo button{
     width: 100%;
@@ -89,18 +89,18 @@ body{
     color: #ffcfff;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(0, 161, 254) 0%,
+        rgb(1, 47, 254) 77%
     );
-    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+    box-shadow: 0 0 20px rgba(1, 47, 254);
     cursor: pointer;
     transition: 0.3s ease;
 }
 .form-princ form .pagina .campo button:hover{
     background: linear-gradient(
         90deg,
-        rgba(136,1,254,1) 0%,
-        rgba(214,0,254,1) 77%
+        rgb(1, 47, 254) 0%,
+        rgb(0, 161, 254) 77%
         
     );
 }
