@@ -24,6 +24,7 @@ btn_adelante2.addEventListener("click",function(e){
     if(nombre=="" || ape=="" || iden==""){
       /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
        alert("No puede quedar vacío.");
+    return 0;
     }else{
         e.preventDefault();
         movPag.style.marginLeft="-25%"
@@ -32,8 +33,6 @@ btn_adelante2.addEventListener("click",function(e){
         progressCheck[cont - 1].classList.add("active");
         cont += 1;
     }
-    
-
     
 });
 btn_adelante3.addEventListener("click",function(e){
