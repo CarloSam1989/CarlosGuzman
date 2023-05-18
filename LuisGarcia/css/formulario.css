@@ -89,7 +89,7 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #ffcfff;
+  color: #fff8f8;
   background: linear-gradient(90deg, rgb(17, 0, 254) 0%, rgb(1, 254, 199) 77%);
   box-shadow: 0 0 20px rgba(0, 254, 220, 0.4);
   cursor: pointer;
