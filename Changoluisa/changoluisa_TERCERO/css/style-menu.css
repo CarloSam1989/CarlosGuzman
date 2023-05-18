@@ -8,12 +8,13 @@
 }
 
 :root{
-    --body-color:#9B27B00D;
+    --body-color:#f2f6f8;
+
     --sidebar-color:#FFFFFF;
-    --primary-color: #637e181f;
+    --primary-color: #232c0b1f;
     --primary-color-light:#9B27B00D;
     --toggle-color:#DDDDDD;
-    --text-color:#707070;
+    --text-color:#1f1616;
     --tran-03: all 0.2s ease;
     --tran-04: all 0.3s ease;
     --tran-05: all 0.4s ease;
@@ -37,8 +38,8 @@ body.dark{
     --body-color: #18191A;
     --sidebar-color: #242526;
     --primary-color-ligth:#3A3B3C;
-    --toggle-color: #FFFFFF;
-    --text-color:#CCCCCC;
+    --toggle-color:#b42828;
+    --text-color:#b42828;
 }
 
 .sidebar {

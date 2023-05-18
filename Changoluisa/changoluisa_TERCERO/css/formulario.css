@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
 }
 
+
 .contanier {
     width: 350px;
     border-radius: 25px;
@@ -188,7 +189,16 @@ form .pagina .btns button.adelante {
     display: block;
     color: #fff;
 }
-
+.line{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(
+        90deg,
+        rgba(214,0,254,1) 0%,
+        rgb(67, 22, 107) 77%
+    );
+}
 .progress-bar .paso .num:before,
 .progress-bar .paso .num:after {
     position: absolute;

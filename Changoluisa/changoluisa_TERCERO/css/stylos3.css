@@ -44,7 +44,7 @@ span {
 }
 
 a {
-    color: #333;
+    color: #7a0404;
     font-size: 14px;
     text-decoration: none;
     margin: 15px 0;
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .content input {
-    accent-color: #333;
+    accent-color: #971d1d;
     width: 12px;
     height: 12px;
 }
@@ -230,8 +230,8 @@ input {
     transform: translate(-100%);
 }
 
-.overlay {
-    background-image: url('image/image.gif');
+.overlay { 
+    background-image: url('img/2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
