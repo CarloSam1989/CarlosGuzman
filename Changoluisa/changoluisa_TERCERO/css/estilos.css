@@ -28,7 +28,7 @@ body {
 form {
     /* background-color: #707070;*/
     padding: 50px 55px 85px 55px;
-    box-shadow: 0 0 20px #5b3363;
+    box-shadow: 0 0 20px #2d3a85;
     ;
     border-radius: 20px;
     text-align: center;
@@ -170,7 +170,7 @@ select::-ms-expand {
 }
 
 .select:hover::after {
-    color: #707070;
+    color: #4bb6b7;
 }
 
 @media(max-width:991px) {
