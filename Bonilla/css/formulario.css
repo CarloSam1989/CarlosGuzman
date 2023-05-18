@@ -1,0 +1,209 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contanier{
+    width: 350px;
+    border-radius: 25px;
+   text-align: center;
+    padding: 30px 35px 0 35px;
+}
+.contanier header{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+.contanier .form-princ{
+    width: 100%;
+    overflow: hidden;
+}
+.form-princ form{
+    display: flex;
+    width: 400%;
+}
+.form-princ form .pagina{
+    width: 25%;
+    transition:margin-left 0.3s ease-in-out;
+}
+.form-princ form .pagina .titulo{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.form-princ form .pagina .campo{
+    height: 35px;
+    width: 350px;
+    margin: 40px 0;
+    display: flex;
+    position: relative;
+}
+.form-princ form .pagina .campo .label{
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+.form-princ form .pagina .campo input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.form-princ form .pagina .campo select{
+    width: 100%;
+    padding-left: 100px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.form-princ form .pagina .campo button{
+    width: 100%;
+    height: calc(100% + 5px);
+    margin-top: -20px;
+    border: none;
+    border: 0;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffcfff;
+    background: linear-gradient(
+        90deg,
+        rgba(214,0,254,1) 0%,
+        rgba(136,1,254,1) 77%
+    );
+    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.form-princ form .pagina .campo button:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(136,1,254,1) 0%,
+        rgba(214,0,254,1) 77%
+        
+    );
+}
+.form-princ form .pagina .btns button{
+    margin-top: -20px!important;
+}
+form .pagina .btns button.volver{
+    margin-right: 3px;
+    font-size: 17px;
+}
+form .pagina .btns button.adelante{
+    margin-left: 3px;
+}
+.contanier .progress-bar{
+    display:flex;
+    margin:40px 0;
+}
+.contanier .progress-bar .paso{
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.progress-bar .paso p{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000;
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+.progress-bar .paso .num{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    transition: 0.2s;
+}
+.progress-bar .paso .num.active{
+    background-color: rgba(214,0,254,1);
+    background: rgba(214,0,254,1);
+}
+.progress-bar .paso .num span{
+    font-weight: 500;
+    font-size:17px;
+    line-height: 25px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+.progress-bar .paso .num.num.active span{
+    display: none;
+}
+.progress-bar .paso .check{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+}
+.progress-bar .paso .check.active{
+    display: block;
+    color:#fff;
+}
+.progress-bar .paso .num:before,
+.progress-bar .paso .num:after{
+    position: absolute;
+    content: '';
+    width: 44px;
+    height: 3px;
+    bottom:11px;
+    right: -53px;
+    background: #000;
+}
+.progress-bar .paso:last-child .num:before,
+.progress-bar .paso:last-child .num:after{
+    display:none;
+}
+.progress-bar .paso .num.active:after{
+    background: rgba(214,0,254,1);
+    animation: mov_linea 0.3s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+@keyframes mov_linea{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.ojitos{
+    position: absolute;
+    top:29%;
+    right: 7px;
+    font-size: 18px;
+    color: #0E2C48;
+}
+#ocultar{
+    display: none;
+}
+#mostrar , #ocultar{
+    cursor:pointer;
+}

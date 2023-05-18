@@ -11,7 +11,6 @@ body {
     #2d6c8534 46%,
     #745d3f1e 100%
   );
-
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -121,6 +120,7 @@ button {
   background-color: #333;
   border-radius: 6px;
 }
+
 .container .card .face.back .content button:hover {
   letter-spacing: 1px;
 }
