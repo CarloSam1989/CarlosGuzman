@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 0;
+    background-color: #b96e3a;
+    background-image: linear-gradient(
+      43deg,
+      #b96e3a 0%,
+      #e6d8b0 46%,
+      #3ca1f2 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    min-height: 100vh;
+  }
+  .card {
+    position: relative;
+    width: 400px;
+    height: 560px;
+  }
+  .image {
+    position: absolute;
+  }
+  .overlap {
+    position: absolute;
+    height: 280px;
+    width: 400px;
+    z-index: 1;
+  }
+  .shape,
+  .shape-fill {
+    width: 400px;
+    height: 560px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+  }
+  .shape {
+    clip-path: polygon(100% 0, 0 100%, 0 0);
+    background-image: url(../img/zenitsu1.jpg);
+    filter: grayscale(0.5) blur(2px);
+  }
+  .shape.right {
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+    background-image: url(../img/zenitsu2.jpg);
+    filter: grayscale(1) blur(2px);
+  }
+  .shape.img2 {
+    background-image: url(../img/giyu1.jpg);
+  }
+  .shape.right.img2 {
+    background-image: url(../img/giyu2.jpg);
+  }
+  .shape:hover,
+  .overlap:hover + .shape {
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    filter: grayscale(0);
+  }
+  .shape-fill {
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    background-image: url(../img/zenitsu1.jpg);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+  }
+  .shape-fill.img2 {
+    background-image: url(../img/giyu1.jpg);
+  }
+  .shape-fill.right {
+    background-image: url(../img/zenitsu2.jpg);
+  }
+  .shape-fill.right.img2 {
+    background-image: url(../img/giyu2.jpg);
+  }
+  .shape:hover + .shape-fill,
+  .overlap:hover ~ .shape-fill {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    opacity: 1;
+    z-index: 2;
+    filter: grayscale(0);
+  }
