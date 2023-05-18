@@ -23,9 +23,10 @@ body{
     display:flex ;
     align-items: center;
     justify-content: center;
+    
 }
 form{
-   /* background-color: #707070;*/
+    background-color: #2790b03b;
     padding: 50px 55px 85px 55px;
     box-shadow: 0 0 20px #2790b0;
     border-radius: 20px;
@@ -33,7 +34,7 @@ form{
     width: 340px;
 }
 .formulariocontenido{
-    background-color: #2790b000;
+    background-color: #2790b0;
 }
 .input-group{
     display: flex;
@@ -41,13 +42,13 @@ form{
     text-align: left;
 }
 h2 {
-    color: #1B1B1B;
+    color: #2790b0;
     font-size: 35px;
     margin: 0;
 }
 p{
     font-size: 16px;
-    color: #353535;
+    color: #2790b0;
     margin-bottom: 20px;
 }
 .line{
@@ -61,7 +62,7 @@ p{
     );
 }
 label {
-    color:#1B1B1B;
+    color: #2790b0;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -75,7 +76,7 @@ input{
     outline: none;
 }
 input::placeholder{
-    color: #707070;
+    color: #9e9c9c;
     font-size: 1em;
 }
 .form-txt{
@@ -85,10 +86,10 @@ input::placeholder{
     text-align: center;
 }
 .form-txt a{
-    color:#1B1B1B;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
+    color: #2790b0;
 }
 .btn{
     height: 45px;
