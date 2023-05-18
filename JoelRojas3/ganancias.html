@@ -12,12 +12,12 @@
   <div class="container" id="container">
 
     <div class="form-container register-container">
-      <form action="indentificaciones.html">
+      <form>
         <h1>Register hire.</h1>
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
+        <input type="text" id="nombre"placeholder="Name" required>
+        <input type="email" id = "email"placeholder="Email" required>
         <input type="password" placeholder="Password" required>
-        <button>Register</button>
+        <button  onclick="return mostrar()">Register</button>
         <span>or use your account</span>
         <div class="social-container">
           <a href="https://www.facebook.com/" class="social" target="_blank"><i class="lni lni-facebook-fill"></i></a>
@@ -71,7 +71,7 @@
     </div>
 
   </div>
-
+  <script src="js/validacion2.js"></script>
   <script src="script3.js"></script>
 
 </body>
