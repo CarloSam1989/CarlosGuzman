@@ -70,6 +70,8 @@ body {
 }
 .container .card:hover .face.front .content {
   opacity: 1;
+  /*filter: grayscale(80%);*/
+  filter: saturate(180%);
 }
 .container .card .face.front .content img {
   width: 100%;
