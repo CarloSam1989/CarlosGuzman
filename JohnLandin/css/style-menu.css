@@ -9,7 +9,7 @@
 :root{
     --body-color:#9B27B00D;
     --sidebar-color:#FFFFFF;
-    --primary-color: #9C27B0;
+    --primary-color: #4527b0;
     --primary-color-light:#9B27B00D;
     --toggle-color:#DDDDDD;
     --text-color:#707070;
@@ -299,7 +299,7 @@ body.dark .switch::before{
 }
 
 .body.dark .home .text{
-    background-color: #9C27B0;
+    background-color: #92b027;
 }
 /* alt 126*/
 .sidebar.close ~ .home{

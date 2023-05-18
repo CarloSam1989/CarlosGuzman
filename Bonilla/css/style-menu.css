@@ -6,10 +6,9 @@
     box-sizing: border-box;
     font-family: "Poppins, sans-serif";
 }
-
 :root{
-    --body-color:#9B27B00D;
-    --sidebar-color:#FFFFFF;
+    --body-color:#00000073;
+    --sidebar-color:#3f3f3f;
     --primary-color: #9C27B0;
     --primary-color-light:#9B27B00D;
     --toggle-color:#DDDDDD;

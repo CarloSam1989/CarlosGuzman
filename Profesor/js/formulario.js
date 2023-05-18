@@ -22,8 +22,10 @@ btn_adelante2.addEventListener("click",function(e){
     var ape = document.getElementById("apellidos").value;
     var iden= document.getElementById("identificacion").value;
     if(nombre=="" || ape=="" || iden==""){
+        
       /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
        alert("No puede quedar vacío.");
+    return 0;
     }else{
         e.preventDefault();
         movPag.style.marginLeft="-25%"
@@ -31,16 +33,30 @@ btn_adelante2.addEventListener("click",function(e){
         progressText[cont - 1].classList.add("active");
         progressCheck[cont - 1].classList.add("active");
         cont += 1;
+        return 1;
     }
     
 });
 btn_adelante3.addEventListener("click",function(e){
-    e.preventDefault();
-    num[cont - 1].classList.add("active");
-    progressText[cont - 1].classList.add("active");
-    progressCheck[cont - 1].classList.add("active");
-    cont += 1;
-    movPag.style.marginLeft="-50%"
+    var fec = document.getElementById("fehcanac").value;
+    var sex = document.getElementById("sexo").value;
+ 
+    if(fec=="" || sex=="-1"){
+        
+      /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
+       alert("No puede quedar vacío.");
+      // movPag.style.marginLeft="-25%"
+    return 0;
+    }else{
+        e.preventDefault();
+        num[cont - 1].classList.add("active");
+        progressText[cont - 1].classList.add("active");
+        progressCheck[cont - 1].classList.add("active");
+        cont += 1;
+        movPag.style.marginLeft="-50%"
+        return 1;
+    }
+ 
 });
 btn_adelante4.addEventListener("click",function(e){
     e.preventDefault();

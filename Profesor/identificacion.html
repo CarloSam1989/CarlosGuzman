@@ -92,20 +92,22 @@
             <div class="titulo">Información Secundaria</div>
             <div class="campo">
               <div class="label">
-                Fecha nacimiento: <b id="error " class="fecha-error"></b>
+                Fecha nacimiento:
+                <b id="error " class="fecha-error"></b>
               </div>
               <input
                 type="date"
                 max="2005-01-01"
                 name="fehcanac"
                 id="fehcanac"
+                required
               />
             </div>
             <div class="campo">
               <div class="label">
                 Sexo: <b id="error " class="sexo-error"></b>
               </div>
-              <select name="sexo" id="sexo">
+              <select name="sexo" id="sexo" required>
                 <option value="-1" disabled selected>Escoge una opción</option>
                 <option value="0">Masculino</option>
                 <option value="0">Femenino</option>
