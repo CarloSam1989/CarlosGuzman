@@ -20,23 +20,23 @@ body {
   padding: 30px 35px 0 35px;
 }
 .contanier header {
-  color: #1977f1;
+  color:#707070;
   font-size: 28px;
   font-weight: 600;
   margin: 0 0 30px 0;
 }
 .contanier .form-princ {
-  color: #1977f1;
+  color:#707070;
   width: 100%;
   overflow: hidden;
 }
 .form-princ form {
-  color: #1977f1;
+  color:#707070;
   display: flex;
   width: 400%;
 }
 .form-princ form .pagina {
-  color: #1977f1;
+  color:#707070;
   width: 25%;
   transition: margin-left 0.3s ease-in-out;
 }
@@ -89,7 +89,7 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #ffcfff;
+  color: #fff8f8;
   background: linear-gradient(90deg, rgb(17, 0, 254) 0%, rgb(1, 254, 199) 77%);
   box-shadow: 0 0 20px rgba(0, 254, 220, 0.4);
   cursor: pointer;
@@ -109,26 +109,29 @@ form .pagina .btns button.adelante {
   margin-left: 3px;
 }
 .contanier .progress-bar {
+  color:#707070;
   display: flex;
   margin: 40px 0;
 }
 .contanier .progress-bar .paso {
+  color:#707070;
   text-align: center;
   width: 100%;
   position: relative;
 }
 .progress-bar .paso p {
+  color:#707070;
   font-size: 18px;
   font-weight: 500;
-  color: #000;
   margin-bottom: 8px;
   transition: 0.2s;
 }
 .progress-bar .paso .num {
+
   position: relative;
   width: 25px;
   height: 25px;
-  border: 2px solid #000;
+  border: 2px solid #707070;
   border-radius: 50%;
   display: inline-block;
   font-weight: 500;
@@ -141,6 +144,7 @@ form .pagina .btns button.adelante {
   background: rgb(0, 254, 241);
 }
 .progress-bar .paso .num span {
+  color:#707070;
   font-weight: 500;
   font-size: 17px;
   line-height: 25px;
