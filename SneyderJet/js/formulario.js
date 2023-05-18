@@ -22,7 +22,7 @@ btn_adelante2.addEventListener("click",function(e){
     if(nombre=="" || ape=="" || iden==""){
       /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
        alert("No puede quedar vacío.");
-       return true;
+       return false;
     }else{
         e.preventDefault();
         movPag.style.marginLeft="-25%"
@@ -38,8 +38,7 @@ btn_adelante3.addEventListener("click",function(e){
     if(fecha=="" || sex== ""){
       /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
        alert("No puede quedar vacío.");
-       movPag.style.marginLeft="-25%"
-       return 0;
+       return true;
     }else{
         e.preventDefault();
         num[cont - 1].classList.add("active");

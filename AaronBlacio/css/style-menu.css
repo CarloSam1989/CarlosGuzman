@@ -62,7 +62,7 @@ body.dark{
     list-style: none;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .sidebar header .image,
@@ -260,7 +260,7 @@ cursor: pointer;
     height: 22px;
     width: 40px;
     border-radius: 25px;
-    background-color: var(--toggle-color);
+    background-color: #2D99AE;
     transition: var(--tran-05);
 }
 
