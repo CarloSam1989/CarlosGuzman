@@ -26,8 +26,8 @@ body {
   position: relative;
 }
 .container .card .face {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   transition: 0.4s;
 }
 .container .card .face.front {
