@@ -36,7 +36,6 @@ form{
     background-color: #2790b000;
 }
 .input-group{
-    
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -92,7 +91,8 @@ input::placeholder{
     text-decoration: none;
 }
 .btn{
-    font-size: 16px;
+    height: 45px;
+    font-size: 18px;
     color: #0306ad;
     border: 0;
     border-radius: 25px;
@@ -113,7 +113,7 @@ input::placeholder{
     );
 }
 label{
-    color:#707070;
+    color:#2790b0;
 }
 select {
     -webkit-appearance:none;
