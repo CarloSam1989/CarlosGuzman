@@ -25,11 +25,14 @@ body {
 .container .card {
   position: relative;
 }
+
 .container .card .face {
   width: 400px;
   height: 400px;
   transition: 0.4s;
 }
+/*.imagen:hover {filter: saturate(180%);}*/
+/*.imagen:hover {filter: grayscale(80%);}*/
 .container .card .face.front {
   position: relative;
   background: #333;
@@ -67,6 +70,9 @@ body {
 }
 .container .card:hover .face.front .content {
   opacity: 1;
+  /*filter: grayscale(80%);*/
+  filter: saturate(180%);
+  webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .container .card .face.front .content img {
   width: 100%;
