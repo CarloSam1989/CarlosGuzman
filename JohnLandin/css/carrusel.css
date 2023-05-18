@@ -72,6 +72,7 @@ body {
   opacity: 1;
   /*filter: grayscale(80%);*/
   filter: saturate(180%);
+  webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .container .card .face.front .content img {
   width: 100%;
