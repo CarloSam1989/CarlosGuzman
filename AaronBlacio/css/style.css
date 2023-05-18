@@ -18,6 +18,7 @@ body {
 
 */
 body{
+    background-color: #bcfefe52;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     min-height: 40vh;
@@ -28,7 +29,7 @@ body{
 form{
    /* background-color: #707070;*/
     padding: 50px 55px 85px 55px;
-    box-shadow: 0 0 20px #0C5776;;
+    box-shadow: 0 0 20px #0C5776;
     border-radius: 20px;
     text-align: center;
     width: 340px;
@@ -37,22 +38,22 @@ form{
     background-color: #9B27B00D;
 }
 .input-group{
-    
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 h2 {
-    color: #1B1B1B;
+    color: dodgerblue;
     font-size: 35px;
     margin: 0;
 }
 p{
     font-size: 16px;
-    color: #353535;
+    color: dodgerblue;
     margin-bottom: 20px;
 }
 .line{
+    border-radius: 5px;
     display: inline-block;
     width: 100px;
     height: 7px;
@@ -63,7 +64,7 @@ p{
     );
 }
 label {
-    color:#1B1B1B;
+    color:dodgerblue;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -73,11 +74,11 @@ input{
     border-radius: 10px;
     margin-bottom: 20px;
     border: 2px solid #EDEDED;
-    color: #1B1B1B;
+    color: dodgerblue;
     outline: none;
 }
 input::placeholder{
-    color: #707070;
+    color: dodgerblue;
     font-size: 1em;
 }
 .form-txt{
@@ -87,13 +88,14 @@ input::placeholder{
     text-align: center;
 }
 .form-txt a{
-    color:#1B1B1B;
+    color:dodgerblue;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
 }
 .btn{
-    font-size: 16px;
+    width: 100%;
+    font-size: 20px;
     color: #bcfefe;
     border: 0;
     border-radius: 25px;
@@ -103,7 +105,7 @@ input::placeholder{
         rgba(45,153,174,1) 77%
     );
     
-    box-shadow: 0 0 20px rgba(12,87,118,1.4);
+    box-shadow: 0 0 20px rgba(12,87,118,0.7);
     cursor: pointer;
 }
 .btn:hover{
@@ -113,6 +115,8 @@ input::placeholder{
         rgba(0,28,68,1) 77%
         
     );
+    box-shadow: 0 0 20px rgba(12,87,118,1.4);
+    
 }
 .formulario{
     align-items: center;
@@ -122,15 +126,13 @@ input::placeholder{
 }
 
 .btn2{
-    
-    width: 50%;
+    width: 100%;
     font-size: 16px;
-    color: #bcfefe;
+    color: #fff;
     border: 0;
     border-radius: 20px;
-    background: rgba(12,87,118,1);
-    box-shadow: inset 20px 20 80px rgb(12,87,118);
-
+    background: rgba(12,87,118,4);
+    box-shadow: 0 0 20px rgba(12,87,118,0.6);
     cursor: pointer;
 }
 .btn2:hover{
@@ -138,7 +140,7 @@ input::placeholder{
 }
 
 label{
-    color:#707070;
+    color:dodgerblue;
 }
 select {
     
@@ -153,7 +155,7 @@ select {
     background-image: none;
     flex: 1;
     padding: 0 .1em;
-    color:#707070;
+    color:dodgerblue;
     cursor:pointer;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;

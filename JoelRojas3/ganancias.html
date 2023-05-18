@@ -1,78 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Double Slider Login / Registration Form</title>
-  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-  <div class="container" id="container">
-
-    <div class="form-container register-container">
-      <form>
-        <h1>Register hire.</h1>
-        <input type="text" id="nombre"placeholder="Name" required>
-        <input type="email" id = "email"placeholder="Email" required>
-        <input type="password" placeholder="Password" required>
-        <button  onclick="return mostrar()">Register</button>
-        <span>or use your account</span>
-        <div class="social-container">
-          <a href="https://www.facebook.com/" class="social" target="_blank"><i class="lni lni-facebook-fill"></i></a>
-          <a href="#" class="social"><i class="lni lni-google"></i></a>
-          <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
-       </div>
-      </form>
-    </div>
-
-    <div class="form-container login-container">
-      <form action="#">
-        <h1>Login hire.</h1>
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <div class="content">
-          <div class="checkbox">
-            <input type="checkbox" name="checkbox" id="checkbox">
-            <label>Remember me</label>
-          </div>
-          <div class="pass-link">
-            <a href="#">Forgot password?</a>
-          </div>
-        </div>
-        <button>Login</button>
-        <span>or use your account</span>
-        <div class="social-container">
-          <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
-          <a href="#" class="social"><i class="lni lni-google"></i></a>
-          <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
-        </div>
-      </form>
-    </div>
-
-    <div class="overlay-container">
-      <div class="overlay">
-        <div class="overlay-panel overlay-left">
-          <h1 class="title">Hello <br> friends</h1>
-          <p>if Yout have an account, login here and have fun</p>
-          <button class="ghost" id="login">Login
-            <i class="lni lni-arrow-left login"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Double Slider Login / Registration Form</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container register-container">
+        <form>
+          <h1>Register here</h1>
+          <input type="text" id="nombre" placeholder="name"name="nombre" required>
+          <input type="email" id="email" placeholder="Email" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <button
+            type="button"
+            onclick="return mostrarDatos(
+            document.getElementById('nombre').value,
+            document.getElementById('email').value,
+            document.getElementById('password').value
+        )"
+          >
+            Register
           </button>
-        </div>
-        <div class="overlay-panel overlay-right">
-          <h1 class="title">Start yout <br> journy now</h1>
-          <p>if you don't have an account yet, join us and start your journey.</p>
-          <button class="ghost" id="register">Register
-            <i class="lni lni-arrow-right register"></i>
-          </button>
+          <span>or use your account</span>
+          <div class="social-container">
+            <a href="https://www.facebook.com/" class="social" target="_blank"
+              ><i class="lni lni-facebook-fill"></i
+            ></a>
+            <a href="#" class="social"><i class="lni lni-google"></i></a>
+            <a href="#" class="social"
+              ><i class="lni lni-linkedin-original"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      
+      <div class="form-container login-container">
+        <form action="#">
+          <h1>Login hire.</h1>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <div class="content">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label>Remember me</label>
+            </div>
+            <div class="pass-link">
+              <a href="#">Forgot password?</a>
+            </div>
+          </div>
+          <button>Login</button>
+          <span>or use your account</span>
+          <div class="social-container">
+            <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+            <a href="#" class="social"><i class="lni lni-google"></i></a>
+            <a href="#" class="social"
+              ><i class="lni lni-linkedin-original"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1 class="title">
+              Hello <br />
+              friends
+            </h1>
+            <p>if Yout have an account, login here and have fun</p>
+            <button class="ghost" id="login">
+              Login
+              <i class="lni lni-arrow-left login"></i>
+            </button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1 class="title">
+              Start yout <br />
+              journy now
+            </h1>
+            <p>
+              if you don't have an account yet, join us and start your journey.
+            </p>
+            <button class="ghost" id="register">
+              Register
+              <i class="lni lni-arrow-right register"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-
-  </div>
-  <script src="js/validacion2.js"></script>
-  <script src="script3.js"></script>
-
-</body>
+    <script src="js/mostrar.js"></script>
+    <script src="js/script3.js"></script>
+  </body>
 </html>
