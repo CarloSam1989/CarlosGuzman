@@ -23,6 +23,7 @@ btn_adelante2.addEventListener("click",function(e){
     var iden= document.getElementById("identificacion").value;
     if(nombre=="" || ape=="" || iden==""){ 
        alert("El nombre no puede quedar vacío.");
+       return 0;
     }else{
         e.preventDefault();
         movPag.style.marginLeft="-25%"
@@ -39,6 +40,7 @@ btn_adelante3.addEventListener("click",function(e){
     
     if(fecha=="" || sexo=="-1"){
        alert("No puede quedar vacío.");
+       return 0;
     }else{
         e.preventDefault();
         num[cont - 1].classList.add("active");

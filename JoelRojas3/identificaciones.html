@@ -1,30 +1,38 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Formulario de Contacto</title>
-    <link rel="stylesheet" href="css/estiloI.css">
-  </head>
-  <body>
-    <h1>Formulario de Contacto</h1>
-    <form action="ganancias.html" method="POST">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-      <br>
-      <label for="apellido">Apellido:</label>
-      <input type="text" id="apellido" name="apellido" required>
-      <br>
-      <label for="correo">Correo electrónico:</label>
-      <input type="email" id="correo" name="correo" required>
-      <br>
-      <label for="telefono">Teléfono:</label>
-      <input type="tel" id="telefono" name="telefono">
-      <br>
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-      <br>
-      <input type="submit" value="Enviar">
-    </form>
-  </body>
+<head>
+    <title>Identificaciones</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Datos de Identificación</h1>
+    
+    <div id="datos-container">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombres" readonly>
+
+            <label for="email">Email:</label>
+            <input type="email" id="emails" readonly>
+
+            <label for="password">Password:</label>
+            <input type="password" id="passwords" readonly>
+        </form>
+    </div>
+
+    <script>
+        // Obtener los datos de la URL
+        var urlParams = new URLSearchParams(window.location.search);
+        
+        // Obtener los valores de los parámetros
+        var nombre = urlParams.get("nombre");
+        var email = urlParams.get("email");
+        var password = urlParams.get("password");
+
+        // Mostrar los valores en los elementos correspondientes
+        document.getElementById("nombres").value = nombre;
+        document.getElementById("emails").value = email;
+        document.getElementById("passwords").value = password;
+    </script>
+</body>
 </html>

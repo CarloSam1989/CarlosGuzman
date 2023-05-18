@@ -43,15 +43,15 @@ body {
 }
 .container .card:hover .face.front {
   transform: translateY(0);
-  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px #f0f,
-    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+  box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(252, 247, 252),
+    inset -20px 0 80px #0ff, inset 20px 0 300px rgb(209, 209, 209), inset -20px 0 300px #0ff,
     0 0 50px #fff, -10px 0 80px rgb(0, 153, 255), 10px 0 80px #0ff;
 }
 .container .card:nth-child(2):hover .face.front {
   box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(255, 208, 0),
-    inset -20px 0 80px rgb(255, 196, 0), inset 20px 0 300px rgb(255, 182, 46),
-    inset -20px 0 300px rgb(255, 153, 0), 0 0 50px #0098be,
-    -10px 0 80px rgb(255, 174, 0), 10px 0 80px rgb(0, 162, 255);
+    inset -20px 0 80px rgb(233, 233, 233), inset 20px 0 300px rgb(255, 182, 46),
+    inset -20px 0 300px rgb(148, 148, 148), 0 0 50px #0098be,
+    -10px 0 80px rgb(126, 126, 126), 10px 0 80px rgb(0, 162, 255);
 }
 .container .card:nth-child(3):hover .face.front {
   box-shadow: inset 0 0 60px whitesmoke, inset 20px 0 80px rgb(63, 41, 16),
@@ -67,8 +67,13 @@ body {
   text-align: center;
 }
 .container .card:hover .face.front .content {
-  opacity: 1;
+    /*opacity: 1;*/
+    filter: grayscale(80%);
+    transform:scale(1.3);
+    transform:scale(1.3);
 }
+
+
 .container .card .face.front .content img {
   width: 100%;
   height: 100%;

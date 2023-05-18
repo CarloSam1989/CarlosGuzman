@@ -4,6 +4,13 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  background-color: #333;
+  background-image: linear-gradient(
+    135deg,
+    #a1286836 0%,
+    #2d6c8534 46%,
+    #745d3f1e 100%
+  );
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -113,6 +120,7 @@ button {
   background-color: #333;
   border-radius: 6px;
 }
+
 .container .card .face.back .content button:hover {
   letter-spacing: 1px;
 }

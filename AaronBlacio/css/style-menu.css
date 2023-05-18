@@ -11,7 +11,7 @@
     --body-color:#bcfefe52;
     --sidebar-color:#001C44;
     --primary-color: #2D99AE;
-    --primary-color-light:#bcfefe52;
+    --primary-color-light:#ffffffd3;
     --toggle-color:#bcfefe;
     --text-color:#ffffffd3;
     --tran-03: all 0.2s ease;
@@ -62,7 +62,7 @@ body.dark{
     list-style: none;
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .sidebar header .image,
@@ -260,7 +260,7 @@ cursor: pointer;
     height: 22px;
     width: 40px;
     border-radius: 25px;
-    background-color: var(--toggle-color);
+    background-color: #2D99AE;
     transition: var(--tran-05);
 }
 
@@ -300,7 +300,7 @@ body.dark .switch::before{
 }
 
 .body.dark .home .text{
-    background-color: #9C27B0;
+    background-color: #0C5776;
 }
 /* alt 126*/
 .sidebar.close ~ .home{
