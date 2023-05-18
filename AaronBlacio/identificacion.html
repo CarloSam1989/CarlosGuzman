@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
     <link rel="stylesheet" href="css/formulario.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <div class="contanier">
@@ -163,7 +159,12 @@
             </div>
             <div class="campo">
               <div class="label">Contraseña:</div>
-              <input type="password" name="pass" id="pass" placeholder="Contraseña"/>
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                placeholder="Contraseña"
+              />
               <span class="ojitos" onclick="mostrarContra()">
                 <i id="mostrar" class="fa fa-eye" title="Mostrar"></i>
                 <i id="ocultar" class="fa fa-eye-slash" title="Ocultar"></i>
