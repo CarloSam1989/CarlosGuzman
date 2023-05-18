@@ -1,11 +1,11 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     outline: none;
     font-family: serif;
 }
-body{
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,42 +14,50 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.contanier{
+
+.contanier {
     width: 350px;
     border-radius: 25px;
-   text-align: center;
+    text-align: center;
     padding: 30px 35px 0 35px;
 }
-.contanier header{
+
+.contanier header {
     font-size: 28px;
     font-weight: 600;
     margin: 0 0 30px 0;
 }
-.contanier .form-princ{
+
+.contanier .form-princ {
     width: 100%;
     overflow: hidden;
 }
-.form-princ form{
+
+.form-princ form {
     display: flex;
     width: 400%;
 }
-.form-princ form .pagina{
+
+.form-princ form .pagina {
     width: 25%;
-    transition:margin-left 0.3s ease-in-out;
+    transition: margin-left 0.3s ease-in-out;
 }
-.form-princ form .pagina .titulo{
+
+.form-princ form .pagina .titulo {
     text-align: left;
     font-size: 20px;
     font-weight: 500;
 }
-.form-princ form .pagina .campo{
+
+.form-princ form .pagina .campo {
     height: 35px;
     width: 350px;
     margin: 40px 0;
     display: flex;
     position: relative;
 }
-.form-princ form .pagina .campo .label{
+
+.form-princ form .pagina .campo .label {
     position: absolute;
     top: -30px;
     font-weight: 500;
@@ -59,7 +67,8 @@ body{
     text-align: left;
     width: 100%;
 }
-.form-princ form .pagina .campo input{
+
+.form-princ form .pagina .campo input {
     width: 100%;
     height: 100%;
     border: 1px solid lightgrey;
@@ -67,7 +76,8 @@ body{
     font-size: 16px;
     padding-left: 15px;
 }
-.form-princ form .pagina .campo .select{
+
+.form-princ form .pagina .campo .select {
     width: 100%;
     padding-left: 100px;
     font-size: 17px;
@@ -75,7 +85,8 @@ body{
     border-radius: 5px;
     border: 1px solid lightgrey;
 }
-.form-princ form .pagina .campo button{
+
+.form-princ form .pagina .campo button {
     width: 100%;
     height: calc(100% + 5px);
     margin-top: -20px;
@@ -87,54 +98,57 @@ body{
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #ffcfff;
-    background: linear-gradient(
-        90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
-    );
-    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+    background: linear-gradient(90deg,
+            rgba(214, 0, 254, 1) 0%,
+            rgba(136, 1, 254, 1) 77%);
+    box-shadow: 0 0 20px rgba(214, 0, 254, 0.4);
     cursor: pointer;
     transition: 0.3s ease;
 }
-.form-princ form .pagina .campo button:hover{
-    background: linear-gradient(
-        90deg,
-        rgba(136,1,254,1) 0%,
-        rgba(214,0,254,1) 77%
-        
-    );
+
+.form-princ form .pagina .campo button:hover {
+    background: linear-gradient(90deg,
+            rgba(136, 1, 254, 1) 0%,
+            rgba(214, 0, 254, 1) 77%);
 }
-.form-princ form .pagina .btns button{
-    margin-top: -20px!important;
+
+.form-princ form .pagina .btns button {
+    margin-top: -20px !important;
 }
-form .pagina .btns button.volver{
+
+form .pagina .btns button.volver {
     margin-right: 3px;
     font-size: 17px;
 }
-form .pagina .btns button.adelante{
+
+form .pagina .btns button.adelante {
     margin-left: 3px;
 }
-.contanier .progress-bar{
-    display:flex;
-    margin:40px 0;
+
+.contanier .progress-bar {
+    display: flex;
+    margin: 40px 0;
 }
-.contanier .progress-bar .paso{
+
+.contanier .progress-bar .paso {
     text-align: center;
     width: 100%;
     position: relative;
 }
-.progress-bar .paso p{
+
+.progress-bar .paso p {
     font-size: 18px;
     font-weight: 500;
-    color:#000;
+    color: #292626;
     margin-bottom: 8px;
     transition: 0.2s;
 }
-.progress-bar .paso .num{
+
+.progress-bar .paso .num {
     position: relative;
     width: 25px;
     height: 25px;
-    border: 2px solid #000;
+    border: 2px solid #cfbebe;
     border-radius: 50%;
     display: inline-block;
     font-weight: 500;
@@ -142,22 +156,26 @@ form .pagina .btns button.adelante{
     line-height: 25px;
     transition: 0.2s;
 }
-.progress-bar .paso .num.active{
-    background-color: rgba(214,0,254,1);
-    background: rgba(214,0,254,1);
+
+.progress-bar .paso .num.active {
+    background-color: rgba(214, 0, 254, 1);
+    background: rgba(214, 0, 254, 1);
 }
-.progress-bar .paso .num span{
+
+.progress-bar .paso .num span {
     font-weight: 500;
-    font-size:17px;
+    font-size: 17px;
     line-height: 25px;
     position: absolute;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
 }
-.progress-bar .paso .num.num.active span{
+
+.progress-bar .paso .num.num.active span {
     display: none;
 }
-.progress-bar .paso .check{
+
+.progress-bar .paso .check {
     display: none;
     position: absolute;
     left: 50%;
@@ -165,45 +183,54 @@ form .pagina .btns button.adelante{
     font-size: 15px;
     transform: translate(-50%, -50%);
 }
-.progress-bar .paso .check.active{
+
+.progress-bar .paso .check.active {
     display: block;
-    color:#fff;
+    color: #fff;
 }
+
 .progress-bar .paso .num:before,
-.progress-bar .paso .num:after{
+.progress-bar .paso .num:after {
     position: absolute;
     content: '';
     width: 44px;
     height: 3px;
-    bottom:11px;
+    bottom: 11px;
     right: -53px;
-    background: #000;
+    background: #646060;
 }
+
 .progress-bar .paso:last-child .num:before,
-.progress-bar .paso:last-child .num:after{
-    display:none;
+.progress-bar .paso:last-child .num:after {
+    display: none;
 }
-.progress-bar .paso .num.active:after{
-    background: rgba(214,0,254,1);
+
+.progress-bar .paso .num.active:after {
+    background: rgba(214, 0, 254, 1);
     animation: mov_linea 0.3s linear forwards;
     transform: scaleX(0);
     transform-origin: left;
 }
-@keyframes mov_linea{
-    100%{
+
+@keyframes mov_linea {
+    100% {
         transform: scaleX(1);
     }
 }
-.ojitos{
+
+.ojitos {
     position: absolute;
-    top:29%;
+    top: 29%;
     right: 7px;
     font-size: 18px;
     color: #0E2C48;
 }
-#ocultar{
+
+#ocultar {
     display: none;
 }
-#mostrar , #ocultar{
-    cursor:pointer;
+
+#mostrar,
+#ocultar {
+    cursor: pointer;
 }

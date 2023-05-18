@@ -11,7 +11,7 @@ body {
   width: 400px;
   left: 50%;
   margin-left: -200px;
-  top: 50%;
+  top: 450px;
   margin-top: -40px;
   border-radius: 80px;
 }
@@ -82,12 +82,14 @@ body {
 /*estilos de la calificacion*/
 :root {
   --black: #1b1b1d;
-  --grey: #0f1011;
-  --yellow: #edc932;
+  --grey: #484949;
+  --yellow: #dde00fde;
   --gradient: linear-gradient(45deg, #5bb12a, #a8a631);
 }
 .rating-box {
-  width: 470px;
+  left: -254px;
+  width: 450px;
+  top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
