@@ -22,6 +22,7 @@ btn_adelante2.addEventListener("click",function(e){
     var ape = document.getElementById("apellidos").value;
     var iden= document.getElementById("identificacion").value;
     if(nombre=="" || ape=="" || iden==""){
+        
       /* document.getElementById("nombres-error").innerHTML = "*Esto no puede estar vacío"; */
        alert("No puede quedar vacío.");
     return 0;
