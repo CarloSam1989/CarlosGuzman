@@ -19,7 +19,7 @@ body {
 */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 40vh;
+    min-height: 70vh;
     display:flex ;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,7 @@ p{
 }
 .line{
     display: inline-block;
-    width: 100px;
+    width: 50px;
     height: 7px;
     background: linear-gradient(
         90deg,
@@ -91,9 +91,25 @@ input::placeholder{
     font-weight: 600;
     text-decoration: none;
 }
+.input-group-boton{
+    padding-top: 500px;
+    padding: 10px 10px;
+    width: 400px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+.input-group-boton:hover{
+   background-color: red;
+}
 .btn{
+    padding-top: 500px;
+    padding: 10px 10px;
+    width: 360px;
+    border-radius: 25px;
+    font-size: 16px;
     font-size: 16px;
     color: #ffcfff;
+   
     border: 0;
     border-radius: 25px;
     background: linear-gradient(
@@ -112,34 +128,10 @@ input::placeholder{
         
     );
 }
-.formulario{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.btn2{
-    
-    width: 50%;
-    font-size: 16px;
-    color: #ffcfff;
-    border: 0;
-    border-radius: 20px;
-    background: rgba(214,0,254,1);
-    box-shadow: inset 20px 20 80px rgb(248, 150, 248);
-
-    cursor: pointer;
-}
-.btn2:hover{
-    box-shadow: 0 0 20px rgba(214,0,254,0.4);
-}
-
 label{
     color:#707070;
 }
 select {
-    
     -webkit-appearance:none;
     -moz-appearance:none;
     -ms-appearance:none;
@@ -162,7 +154,7 @@ select {
  .select {
     position: relative;
     display: flex;
-    width: 21em;
+    width: 100%;
     height: 3em;
     line-height: 3;
     background: #fff;
@@ -172,7 +164,7 @@ select {
  .select::after {
     content: '\25BC';
     position: absolute;
-    top: 00;
+    top: 0;
     right: 0;
     padding: 0 1em;
     background: #9C27B0;
@@ -183,9 +175,8 @@ select {
  .select:hover::after {
     color: #707070;
  }
- 
 
-@media(max-width:550px){
+@media(max-width:991px){
     body{
         padding: 30px;
     }
@@ -195,5 +186,8 @@ select {
     }
     input{
         padding: 15px 10px;
+    }
+    .select{
+        width: 100%;
     }
 }
