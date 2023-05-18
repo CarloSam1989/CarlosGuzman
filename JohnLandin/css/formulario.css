@@ -14,6 +14,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
 .contanier{
     width: 350px;
     border-radius: 25px;
@@ -21,6 +23,7 @@ body{
     padding: 30px 35px 0 35px;
 }
 .contanier header{
+    color: var(--primary-color);
     font-size: 28px;
     font-weight: 600;
     margin: 0 0 30px 0;
@@ -89,18 +92,18 @@ body{
     color: #ffcfff;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(34, 0, 254) 0%,
+        rgb(1, 132, 254) 77%
     );
-    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+    box-shadow: 0 0 20px rgba(4, 254, 0, 0.4);
     cursor: pointer;
     transition: 0.3s ease;
 }
 .form-princ form .pagina .campo button:hover{
     background: linear-gradient(
         90deg,
-        rgba(136,1,254,1) 0%,
-        rgba(214,0,254,1) 77%
+        rgb(1, 254, 161) 0%,
+        rgb(0, 254, 21) 77%
         
     );
 }
@@ -111,6 +114,7 @@ form .pagina .btns button.volver{
     margin-right: 3px;
     font-size: 17px;
 }
+
 form .pagina .btns button.adelante{
     margin-left: 3px;
 }
@@ -143,8 +147,8 @@ form .pagina .btns button.adelante{
     transition: 0.2s;
 }
 .progress-bar .paso .num.active{
-    background-color: rgba(214,0,254,1);
-    background: rgba(214,0,254,1);
+    background-color: rgb(254, 186, 0);
+    background: rgb(254, 233, 0);
 }
 .progress-bar .paso .num span{
     font-weight: 500;
@@ -184,7 +188,7 @@ form .pagina .btns button.adelante{
     display:none;
 }
 .progress-bar .paso .num.active:after{
-    background: rgba(214,0,254,1);
+    background: rgb(0, 254, 21);
     animation: mov_linea 0.3s linear forwards;
     transform: scaleX(0);
     transform-origin: left;
