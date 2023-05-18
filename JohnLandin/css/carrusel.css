@@ -25,11 +25,14 @@ body {
 .container .card {
   position: relative;
 }
+
 .container .card .face {
   width: 400px;
   height: 400px;
   transition: 0.4s;
 }
+/*.imagen:hover {filter: saturate(180%);}*/
+/*.imagen:hover {filter: grayscale(80%);}*/
 .container .card .face.front {
   position: relative;
   background: #333;
