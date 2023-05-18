@@ -50,4 +50,30 @@ btn_adelante3.addEventListener("click",function(e){
 });
 
 
+/*
+const nextButton = document.querySelector("#btn_adelante2");
+nextButton.addEventListener("click", function(e) {
+  const nombre= document.querySelector("nombres").value;
+  const surname = document.querySelector("apellidos").value;
+  const id = document.querySelector("identificacion").value;
+  if (name === "" || surname === "" || id === "") {
+    alert("No puede quedar vacío.");
+    return true;
+  } else {
+    e.preventDefault();
+    const page = document.querySelector("#movPag");
+    page.style.marginLeft = "-25%";
+    const num = document.querySelectorAll(".num");
+    const progressText = document.querySelectorAll(".progressText");
+    const progressCheck = document.querySelectorAll(".progressCheck");
+    let index = 0;
+    num[index].classList.add("active");
+    progressText[index].classList.add("active");
+    progressCheck[index].classList.add("active");
+    index += 1;
+  }
+});
+*/
+
+
 
