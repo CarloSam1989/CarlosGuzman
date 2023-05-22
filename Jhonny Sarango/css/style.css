@@ -23,32 +23,32 @@ body{
     display:flex ;
     align-items: center;
     justify-content: center;
+    
 }
 form{
-   /* background-color: #707070;*/
+    background-color: #0E2C48;
     padding: 50px 55px 85px 55px;
-    box-shadow: 0 0 20px #9C27B0;;
+    box-shadow: 0 0 20px #2790b0;
     border-radius: 20px;
     text-align: center;
     width: 340px;
 }
 .formulariocontenido{
-    background-color: #9B27B00D;
+    background-color: #2790b0;
 }
 .input-group{
-    
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 h2 {
-    color: #1B1B1B;
+    color: #2790b0;
     font-size: 35px;
     margin: 0;
 }
 p{
     font-size: 16px;
-    color: #353535;
+    color: #2790b0;
     margin-bottom: 20px;
 }
 .line{
@@ -57,12 +57,12 @@ p{
     height: 7px;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(26, 156, 179) 0%,
+        rgb(1, 39, 254) 77%
     );
 }
 label {
-    color:#1B1B1B;
+    color: #2790b0;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -76,7 +76,7 @@ input{
     outline: none;
 }
 input::placeholder{
-    color: #707070;
+    color: #9e9c9c;
     font-size: 1em;
 }
 .form-txt{
@@ -86,34 +86,35 @@ input::placeholder{
     text-align: center;
 }
 .form-txt a{
-    color:#1B1B1B;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
+    color: #2790b0;
 }
 .btn{
-    font-size: 16px;
-    color: #ffcfff;
+    height: 45px;
+    font-size: 18px;
+    color: #0306ad;
     border: 0;
     border-radius: 25px;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(0, 161, 254) 0%,
+        rgb(1, 47, 254) 77%
     );
-    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+    box-shadow: 0 0 20px rgba(6, 141, 194, 0.705);
     cursor: pointer;
 }
 .btn:hover{
     background: linear-gradient(
         90deg,
-        rgba(136,1,254,1) 0%,
-        rgba(214,0,254,1) 77%
+        rgb(1, 47, 254) 0%,
+        rgb(0, 161, 254) 77%
         
     );
 }
 label{
-    color:#707070;
+    color:#2790b0;
 }
 select {
     -webkit-appearance:none;
@@ -151,7 +152,7 @@ select {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: #9C27B0;
+    background: #2790b0;
     cursor:pointer;
     pointer-events:none;
     transition:.25s all ease;

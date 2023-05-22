@@ -9,7 +9,7 @@ body {
 }
 .button:hover{
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
-	background:#9512c9
+	background:#359410
 
 }
 .button {
@@ -24,10 +24,10 @@ body {
   border-radius: 25px;
   background: linear-gradient(
     90deg,
-    rgba(214, 0, 254, 1) 0%,
-    rgba(136, 1, 254, 1) 77%
+    rgb(33, 146, 23) 0%,
+    rgb(14, 68, 9) 77%
   );
-  box-shadow: 0 0 20px rgba(214, 0, 254, 0.4);
+  box-shadow: 0 0 20px rgba(18, 94, 18, 0.4);
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px 10px;
@@ -36,7 +36,7 @@ body {
 form {
   /* background-color: #707070;*/
   padding: 50px 55px 85px 55px;
-  box-shadow: 0 0 20px #9c27b0;
+  box-shadow: 0 0 20px #147711;
   border-radius: 20px;
   text-align: center;
   width: 340px;
@@ -65,8 +65,8 @@ p {
   height: 7px;
   background: linear-gradient(
     90deg,
-    rgba(214, 0, 254, 1) 0%,
-    rgba(136, 1, 254, 1) 77%
+    rgb(40, 204, 34) 0%,
+    rgb(26, 109, 23) 77%
   );
 }
 label {
@@ -106,8 +106,8 @@ input::placeholder {
   border-radius: 25px;
   background: linear-gradient(
     90deg,
-    rgba(214, 0, 254, 1) 0%,
-    rgba(136, 1, 254, 1) 77%
+    rgb(10, 54, 6) 0%,
+    rgb(39, 168, 22) 77%
   );
   box-shadow: 0 0 20px rgba(214, 0, 254, 0.4);
   cursor: pointer;
@@ -115,8 +115,8 @@ input::placeholder {
 .btn:hover {
   background: linear-gradient(
     90deg,
-    rgba(136, 1, 254, 1) 0%,
-    rgba(214, 0, 254, 1) 77%
+    rgb(25, 219, 25) 0%,
+    rgb(17, 124, 17) 77%
   );
 }
 label {
@@ -158,7 +158,7 @@ select::-ms-expand {
   top: 0;
   right: 0;
   padding: 0 1em;
-  background: #9c27b0;
+  background: #2c7a18;
   cursor: pointer;
   pointer-events: none;
   transition: 0.25s all ease;
