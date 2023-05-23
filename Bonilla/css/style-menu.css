@@ -8,11 +8,11 @@
 }
 :root{
     --body-color:#00000073;
-    --sidebar-color:#3f3f3f;
-    --primary-color: rgb(54, 54, 54);
+    --sidebar-color:#464646;
+    --primary-color: rgb(75, 75, 75);
     --primary-color-light:#9B27B00D;
     --toggle-color:#DDDDDD;
-    --text-color:#707070;
+    --text-color:#818181;
     --tran-03: all 0.2s ease;
     --tran-04: all 0.3s ease;
     --tran-05: all 0.4s ease;
