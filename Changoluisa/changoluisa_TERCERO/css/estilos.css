@@ -18,6 +18,10 @@ body {
 
 */
 body {
+    background-image: url('https://example.com/tu-imagen.jpg');
+    background-size: cover;
+  }
+body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 70vh;
     display: flex;
@@ -28,7 +32,7 @@ body {
 form {
     /* background-color: #707070;*/
     padding: 50px 55px 85px 55px;
-    box-shadow: 0 0 20px #2d3a85;
+    box-shadow: 0 0 20px #e71212;
     ;
     border-radius: 20px;
     text-align: center;
@@ -63,8 +67,8 @@ p {
     width: 50px;
     height: 7px;
     background: linear-gradient(90deg,
-            rgba(214, 0, 254, 1) 0%,
-            rgba(136, 1, 254, 1) 77%);
+            rgb(224, 14, 14) 0%,
+            rgb(175, 11, 11) 77%);
 }
 
 label {
@@ -108,20 +112,20 @@ input::placeholder {
     border: 0;
     border-radius: 25px;
     background: linear-gradient(90deg,
-            rgb(11, 7, 12) 0%,
-            rgb(2, 2, 2) 77%);
-    box-shadow: 0 0 20px rgba(214, 0, 254, 0.4);
+            rgb(221, 80, 80) 0%,
+            rgb(196, 54, 54) 77%);
+    box-shadow: 0 0 20px rgba(254, 0, 0, 0.4);
     cursor: pointer;
 }
 
 .btn:hover {
     background: linear-gradient(90deg,
-            rgba(136, 1, 254, 1) 0%,
-            rgba(214, 0, 254, 1) 77%);
+            rgb(219, 3, 3) 0%,
+            rgb(243, 9, 9) 77%);
 }
 
 label {
-    color: #707070;
+    color: #ff0000;
 }
 
 select {
@@ -163,7 +167,7 @@ select::-ms-expand {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: #9C27B0;
+    background: #eb0b0b;
     cursor: pointer;
     pointer-events: none;
     transition: .25s all ease;

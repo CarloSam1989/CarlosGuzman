@@ -1,4 +1,4 @@
-/*
+
 body {
     background-image: url(img.jpg);
     background-position: center center;
@@ -16,7 +16,6 @@ body {
     height: 200px;
 }
 
-*/
 body{
     font-family: Arial, Helvetica, sans-serif;
     min-height: 70vh;
@@ -27,13 +26,13 @@ body{
 form{
    /* background-color: #707070;*/
     padding: 50px 55px 85px 55px;
-    box-shadow: 0 0 20px hwb(202 28% 13%);;
+    box-shadow: 0 0 20px hwb(0 6% 25%);;
     border-radius: 20px;
     text-align: center;
     width: 340px;
 }
 .formulariocontenido{
-    background-color: #9B27B00D;
+    background-color: #c716160d;
 }
 .input-group{
     
@@ -42,13 +41,13 @@ form{
     text-align: left;
 }
 h2 {
-    color:#2f7ca0;
+    color:#9b2222;
     font-size: 35px;
     margin: 0;
 }
 p{
     font-size: 16px;
-    color:#2f7ca0;
+    color:#991111;
     margin-bottom: 20px;
 }
 .line{
@@ -57,12 +56,12 @@ p{
     height: 7px;
     background: linear-gradient(
         90deg,
-        rgb(117, 168, 192) 10%,
-        rgb(102, 154, 206) 68%
+        rgb(228, 214, 214) 10%,
+        rgb(206, 184, 182) 68%
     );
 }
 label {
-    color:#1B1B1B;
+    color:#fc0606;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -88,7 +87,7 @@ input::placeholder{
 }
 .form-txt a{
     
-    color:#2f7ca0;
+    color:#e21111;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
@@ -116,24 +115,24 @@ input::placeholder{
     border-radius: 25px;
     background: linear-gradient(
         90deg,
-        rgb(146, 183, 231) 0%,
-        rgb(123, 161, 187) 77%
+        rgb(168, 104, 104) 0%,
+        rgb(136, 87, 87) 77%
        
     );
-    box-shadow: 0 0 20px rgba(14, 57, 121, 0.4);
+    box-shadow: 0 0 20px rgba(224, 143, 143, 0.4);
     cursor: pointer;
 }
 .btn:hover{
     background: linear-gradient(
         90deg,
-        rgb(66, 162, 206) 10%,
-        rgb(62, 114, 182) 68%
+        rgb(223, 50, 19) 10%,
+        rgb(221, 7, 7) 68%
         
     );
 }
 label{
     
-    color:#2f7ca0;
+    color:#df2121;
 }
 select {
     -webkit-appearance:none;
@@ -171,13 +170,13 @@ select {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: hwb(202 28% 13%);
+    background: hwb(0 10% 29%);
     cursor:pointer;
     pointer-events:none;
     transition:.25s all ease;
  }
  .select:hover::after {
-    color: hwb(206 13% 44%);
+    color: hwb(144 1% 97%);
  }
 
 @media(max-width:991px){
