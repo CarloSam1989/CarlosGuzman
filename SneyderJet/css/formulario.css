@@ -20,9 +20,14 @@ body{
     border-radius: 25px;
    text-align: center;
     padding: 30px 35px 0 35px;
+    box-shadow: 0 0 20px #1f1f1f;;
+    border-radius: 25px;
+    text-align: center;
+    width: 340px;
+    
 }
 .contanier header{
-    color:#9a9a9a;
+    color:#8a8a8a;
     font-size: 28px;
     font-weight: 600;
     margin: 0 0 30px 0;
@@ -30,7 +35,7 @@ body{
 .contanier .form-princ{
     width: 100%;
     overflow: hidden;
-    color:#171616;
+    color:#1f1f1f;
 }
 .form-princ form{
     display: flex;
