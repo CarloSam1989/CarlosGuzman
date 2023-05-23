@@ -14,7 +14,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+body.dark{
+    color:red;
+}
 .contanier{
     width: 350px;
     border-radius: 25px;
