@@ -9,3 +9,6 @@ registerButton.addEventListener("click", () => {
 loginButton.addEventListener("click", () => {
   container.classList.remove("right-panel-active");
 });
+
+
+
