@@ -87,6 +87,7 @@ input::placeholder{
     text-align: center;
 }
 .form-txt a{
+    
     color:#2f7ca0;
     font-size: 14px;
     font-weight: 600;
@@ -131,6 +132,7 @@ input::placeholder{
     );
 }
 label{
+    
     color:#2f7ca0;
 }
 select {
@@ -145,7 +147,7 @@ select {
     background-image: none;
     flex: 1;
     padding: 0 .1em;
-    color:#707070;
+    color:#111010;
     cursor:pointer;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;

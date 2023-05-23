@@ -4,15 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins, sans-serif";
+    font-family: "Poppins";
 }
 :root{
     --body-color:#9B27B00D;
-    --sidebar-color:#FFFFFF;
-    --primary-color: #b3a814;
+    --sidebar-color:#ffffff;
+    --primary-color: #eae15b;
     --primary-color-light:#9B27B00D;
-    --toggle-color:#ffffff;
-    --text-color:#707070;
+    --toggle-color:#080808;
+    --text-color:#2c2c2c;
     --tran-03: all 0.2s ease;
     --tran-04: all 0.3s ease;
     --tran-05: all 0.4s ease;
@@ -33,11 +33,11 @@ body{
 }
 
 body.dark{
-    --body-color: #18191A;
+    --body-color: #363838;
     --sidebar-color: #242526;
-    --primary-color-ligth:#3A3B3C;
+    --primary-color-ligth:#949494;
     --toggle-color: #FFFFFF;
-    --text-color:#CCCCCC;
+    --text-color:#ffffff;
 }
 
 .sidebar {
@@ -312,9 +312,6 @@ body.dark .home .text {
     color: var(--text-color);
 }
 iframe{
-   
     width: 100%;
-    height: 90%;
-    
+    height: 100%;
 }
-

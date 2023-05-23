@@ -1,4 +1,5 @@
 const body = document.querySelector('body'),
+//iframe = document.querySelector('iframe');
     sidebar = body.querySelector('nav'),
     toggle = body.querySelector(".toggle"),
     searchBtn = body.querySelector(".search-box"),
@@ -12,6 +13,7 @@ const body = document.querySelector('body'),
     })
     modeSwitch.addEventListener("click", ()=> {
         body.classList.toggle("dark");
+       // iframe.classList.toggle("dark");
         if(body.classList.contains("dark")){
             modeText.innerText = "Modo Claro";
         }else{
