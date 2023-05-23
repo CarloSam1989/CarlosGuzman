@@ -6,15 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Obtener el formulario
+        var formulario = document.getElementById("login-form");
+
+        // Agregar evento de validación al formulario
+        formulario.addEventListener("submit", function (event) {
+          var emailInput = document.getElementById("email");
+          var email = emailInput.value;
+
+          // Patrón de expresión regular para validar el correo electrónico
+          var patron = /^[\w.-]+@[\w.-]+\.\w+$/;
+
+          // Verificar si el correo electrónico coincide con el patrón
+          if (!patron.test(email)) {
+            event.preventDefault(); // Detener el envío del formulario
+            alert("El correo electrónico no es válido.");
+          }
+        });
+      });
+    </script>
   </head>
   <body>
-    <form action="menu.html" method="#">
+    <form id="login-form" action="menu.html" method="#">
       <h2>Login</h2>
       <span class="line"></span>
       <p>Ingresa credenciales..</p>
       <div class="input-group">
         <label for="email">Correo</label>
-        <input type="email" placeholder="Correo" name="email" id="email" />
+        <input
+          type="email"
+          placeholder="Correo"
+          name="email"
+          id="email"
+          required
+        />
         <label for="contraseña">Contraseña</label>
         <input
           type="password"

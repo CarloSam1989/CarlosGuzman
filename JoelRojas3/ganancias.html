@@ -23,12 +23,12 @@
           />
           <button
             type="button"
+            onclick="return validar(nombre,email,password) " 
             onclick="return mostrarDatos(
             document.getElementById('nombre').value,
             document.getElementById('email').value,
             document.getElementById('password').value
-        )"
-          >
+            ) ">
             Register
           </button>
           <span>or use your account</span>
@@ -102,5 +102,6 @@
     </div>
     <script src="js/mostrar.js"></script>
     <script src="js/script3.js"></script>
+    <script src="js/registro.js"></script>
   </body>
 </html>

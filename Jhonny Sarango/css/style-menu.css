@@ -191,6 +191,7 @@ body.dark .sidebar header .toggle{
     border-radius: 6px;
     text-decoration: none;
     transition: var(--tran-03);
+
 }
 
 .sidebar li a:hover {
@@ -256,6 +257,7 @@ justify-content: center;
 border-radius: 6px;
 cursor: pointer;
 
+
 }
 
 .toggle-switch .switch{
@@ -263,7 +265,7 @@ cursor: pointer;
     height: 22px;
     width: 40px;
     border-radius: 25px;
-    background-color: var(--toggle-color);
+    background-color: #2790b0;
     transition: var(--tran-05);
 }
 
@@ -278,6 +280,7 @@ cursor: pointer;
     transform: translatey(-50%);
     background-color: var(--sidebar-color);
     transition: var(--tran-04);
+
 
 }
 
@@ -321,4 +324,6 @@ iframe{
     height: 90%;
     
 }
-
+body .home .text{
+    color: #2790b0;
+}

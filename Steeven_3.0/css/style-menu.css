@@ -8,11 +8,11 @@
 }
 :root{
     --body-color:#9B27B00D;
-    --sidebar-color:#FFFFFF;
-    --primary-color: #9C27B0;
+    --sidebar-color:#95ce93;
+    --primary-color: #224d37;
     --primary-color-light:#9B27B00D;
-    --toggle-color:#DDDDDD;
-    --text-color:#707070;
+    --toggle-color:#000000;
+    --text-color:#000000;
     --tran-03: all 0.2s ease;
     --tran-04: all 0.3s ease;
     --tran-05: all 0.4s ease;
@@ -20,7 +20,7 @@
 
 body{
     min-height: 100vh;
-    background-color: var(--body-color);
+    background: #446444;
     transition: var(--tran-05);
     scrollbar-width: none; 
 }
@@ -33,10 +33,10 @@ body{
 }
 
 body.dark{
-    --body-color: #18191A;
-    --sidebar-color: #242526;
-    --primary-color-ligth:#3A3B3C;
-    --toggle-color: #FFFFFF;
+    --body-color: #5c6268;
+    --sidebar-color: #355539;
+    --primary-color-ligth:#41703f;
+    --toggle-color: #95ce93;
     --text-color:#CCCCCC;
 }
 
@@ -299,7 +299,7 @@ body.dark .switch::before{
 }
 
 .body.dark .home .text{
-    background-color: #9C27B0;
+    background-color: #2c0000;
 }
 /* alt 126*/
 .sidebar.close ~ .home{
