@@ -5,5 +5,6 @@ function mostrarDatos(nombre, email, password) {
     formData.append("email", email);
     formData.append("password", password);
 
-    
+    // Redirigir a identificaciones.html con los parámetros en la URL
+    window.location.href = "identificaciones.html? " + new URLSearchParams(formData).toString();
 }
