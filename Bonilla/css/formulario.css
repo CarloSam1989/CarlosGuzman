@@ -86,21 +86,21 @@ body{
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffcfff;
+    color: #ffffff;
     background: linear-gradient(
         90deg,
-        rgba(214,0,254,1) 0%,
-        rgba(136,1,254,1) 77%
+        rgb(255, 255, 255) 0%,
+        rgb(0, 0, 0) 77%
     );
-    box-shadow: 0 0 20px rgba(214,0,254,0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     cursor: pointer;
     transition: 0.3s ease;
 }
 .form-princ form .pagina .campo button:hover{
     background: linear-gradient(
         90deg,
-        rgba(136,1,254,1) 0%,
-        rgba(214,0,254,1) 77%
+        rgb(255, 255, 255) 0%,
+        rgb(0, 0, 0) 77%
         
     );
 }
