@@ -8,12 +8,12 @@
 }
 
 :root{
-    --body-color:#9B27B00D;
-    --sidebar-color:#FFFFFF;
-    --primary-color: #9C27B0;
+    --body-color:#c8d5e6;
+    --sidebar-color:#b9cbe2de;
+    --primary-color: #2790b0;
     --primary-color-light:#9B27B00D;
     --toggle-color:#DDDDDD;
-    --text-color:#707070;
+    --text-color:#2790b0;
     --tran-03: all 0.2s ease;
     --tran-04: all 0.3s ease;
     --tran-05: all 0.4s ease;
@@ -85,9 +85,11 @@ body.dark{
 .sidebar .icon{
     color: var(--text-color);
     transition: var(--tran-03);
+    color: #2790b0;
 }
 
 .sidebar .text{
+    color: #2790b0;
     font-size: 15px;
     font-weight: 200;
     white-space: nowrap;
@@ -189,6 +191,7 @@ body.dark .sidebar header .toggle{
     border-radius: 6px;
     text-decoration: none;
     transition: var(--tran-03);
+
 }
 
 .sidebar li a:hover {
@@ -253,6 +256,8 @@ align-items: center;
 justify-content: center;
 border-radius: 6px;
 cursor: pointer;
+
+
 }
 
 .toggle-switch .switch{
@@ -260,7 +265,7 @@ cursor: pointer;
     height: 22px;
     width: 40px;
     border-radius: 25px;
-    background-color: var(--toggle-color);
+    background-color: #2790b0;
     transition: var(--tran-05);
 }
 
@@ -275,6 +280,7 @@ cursor: pointer;
     transform: translatey(-50%);
     background-color: var(--sidebar-color);
     transition: var(--tran-04);
+
 
 }
 
@@ -300,7 +306,7 @@ body.dark .switch::before{
 }
 
 .body.dark .home .text{
-    background-color: #9C27B0;
+    background-color: #2790b0;
 }
 /* alt 126*/
 .sidebar.close ~ .home{
@@ -318,4 +324,6 @@ iframe{
     height: 90%;
     
 }
-
+body .home .text{
+    color: #2790b0;
+}
